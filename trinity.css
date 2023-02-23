@@ -1,0 +1,27 @@
+/* .css - Alpine ACF */
+
+/*----------------------------------------------------------------------------------
+ * FONTAWESOME 6 FREE CLOUDFLARE CDN
+ *--------------------------------------------------------------------------------*/
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+/*----------------------------------------------------------------------------------
+ * JQUERY TABLESORTER
+ *--------------------------------------------------------------------------------*/
+
+@import "../static/tablesorter/theme.ice.css";
+
+/*----------------------------------------------------------------------------------
+ * INCLUDES
+ *--------------------------------------------------------------------------------*/
+
+@import "css/content.css";
+@import "css/footer.css";
+@import "css/header.css";
+@import "css/icons.css";
+@import "css/logon.css";
+@import "css/page.css";
+@import "css/mobile.css";
+@import "css/nav.css";
+@import "css/tags.css";

@@ -1,0 +1,125 @@
+/*----------------------------------------------------------------------------------
+ * TAGS
+ *----------------------------------------------------------------------------------
+ */
+ 
+.hide {
+	display:none;
+}
+
+a,
+a:visited {
+	text-decoration:none !important;
+	color: #3F83CE;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input {
+    border-radius: 2.5px;
+    padding: 0.25rem;
+    height: 1.5rem;
+    border: 1px solid #cacaca;
+}
+
+input.checkbox {
+	border: none;
+}
+
+hr {
+	background-color:white;
+	height:3px;
+}
+
+#error:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\f071';
+    margin: 0 1rem 0 0;
+    position: relative;
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#error {
+    font-weight: bold;
+    display: flex;
+    clear: both;
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    width: auto !important;
+    border-radius: 4px;
+    font-size: 12.5px;
+    text-align: justify;
+    line-height: 1.5rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    background: #ffdada;
+    color: #c70000;
+    margin-bottom: 1em;
+}
+
+input.error,
+select.error,
+textarea.error {
+	font-weight:normal;
+	font-style:normal;
+}
+
+#error a {
+    margin: 0 1rem;
+    color: inherit;
+    text-decoration: underline !important;
+}
+
+.header {
+	background:#eee;
+	border-bottom:3px double #999;
+	font-weight:bold;
+	vertical-align:bottom;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 11px;
+    background: #f3f3f3;
+    line-height: 1.5rem;
+    white-space: pre-wrap;
+    padding: 1rem;
+    border-radius: 2.5px;
+}
+
+input[type=text][disabled] {
+	color:#755;
+	background:#eee;
+}
+
+input.text[readonly],
+textarea[readonly] {
+	border:none;
+	font-weight:bold;
+}
+
+input.submit {
+    cursor: pointer !important;
+}
+
+input.submit:hover {
+	background: #220442 !important;
+}
+
+#password_editme #userid {
+    font-weight: 900;
+    position: relative;
+    color: #ff0092;
+    text-decoration: underline;
+    top: -0.35rem;
+}
