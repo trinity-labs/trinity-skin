@@ -26,42 +26,37 @@ local header_level2 = htmlviewfunctions.incrementheader(header_level)
 
 <%
 local function print_percent(val)
-	if (tonumber(val) > 10) then
+	if (tonumber(val) > 0) then
 		io.write(html.html_escape(val) .. "%")
 	end
 end
 %>
 
-<table style="margin:0px;padding:0px;border:0px">
+<table class="chart-bar chart-memory" style="margin:0px;padding:0px;border:0px">
 	<tr>
 		<td>0%</td>
-		<td width="<%= html.html_escape(view.value.memory.used) %>%"
-		    style="background:red;border:2px solid black;border-right:none;">
+		<td id="capacity-used" class="capacity-used" width="<%= html.html_escape(view.value.memory.used) %>%">
 			<center><b><% print_percent(view.value.memory.used) %></b></center>
 		</td>
-		<td width="<%= html.html_escape(view.value.memory.buffers) %>%"
-		    style="background:yellow;border:2px solid black;">
+		<td id="capacity-buffered" class="capacity-buffered" width="<%= html.html_escape(view.value.memory.buffers) %>%">
 			<center><b><% print_percent(view.value.memory.buffers) %></b></center>
 		</td>
-		<td width="<%= tonumber(view.value.memory.free) %>%"
-		    style="background:#0c0;border:2px solid black;border-left:none;">
+		<td id="capacity-free" class="capacity-free" width="<%= tonumber(view.value.memory.free) %>%">
 			<center><b><% print_percent(view.value.memory.free) %></b></center>
 		</td>
 		<td>100%</td>
 	</tr>
 </table>
 
-<table style="margin:0px;padding:0px;border:0px;margin-top:5px;">
-	<tr>
-		<td width="100px"><b>Legend:</b></td>
-		<td style="background:red;;border:2px solid black;" width="20px"></td>
-		<td width="70px"><b>=Used</b></td>
-		<td style="background:yellow;;border:2px solid black;" width="20px"></td>
-		<td width="70px"><b>=buffers / Cached</b></td>
-		<td style="background:#0c0;border:2px solid black;" width="20px"></td>
-		<td><b>=Free</b></td>
-	</tr>
-</table>
+<div class="chart-bar chart-legend" style="margin:0px;padding:0px;border:0px;margin-top:5px;">
+		<p id="legend" width="100px"><b>Legend</b> :</p>
+		<p id="legend-used" class="capacity-used" width="20px"></p>
+		<p width="70px"><b>= Used</b></p>
+		<p id="legend-buffered" class="capacity-buffered"></p>
+		<p width="70px"><b>= Buffers/Cached</b><p>
+		<p id="legend-free" class="capacity-free"></p>
+		<p width="70px"><b>= Free</b></p>
+</div>
 
 <% htmlviewfunctions.displaysectionend(header_level2) %>
 

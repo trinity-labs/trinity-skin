@@ -1,0 +1,74 @@
+/*----------------------------------------------------------------------------------
+ * HEALTH > TEMPLATE
+ *----------------------------------------------------------------------------------
+ */
+ 
+.capacity-used {
+	background: #ef5959;
+}
+
+.capacity-buffered {
+	background:#ffd45d;
+}
+
+.capacity-free {
+    background: #8df558;
+}
+ 
+#capacity-used {
+    color: white;
+    font-family: monospace;
+    font-size: 0.75rem;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+}
+ 
+#capacity-buffered {
+    color: white;
+    font-family: monospace;
+    font-size: 0.75rem;
+    border-right: none;
+}
+ 
+#capacity-free {
+    color: white;
+    font-family: monospace;
+    font-size: 0.75rem;
+    border-right: none;
+    border-radius: 0 8px 8px 0;
+}
+
+#legend-used {
+    padding: 0.33rem;
+    width: 5rem !important;
+    margin: 0 0.5rem;
+    border-radius: 2px;
+}
+
+#legend-buffered {
+    padding: 0.33rem;
+    width: 5rem !important;
+    margin: 0 0.5rem;
+    border-radius: 2px;
+}
+
+#legend-free {
+    padding: 0.33rem;
+    width: 5rem !important;
+    margin: 0 0.5rem;
+    border-radius: 2px;
+}
+
+#legend b {
+    font-weight: normal;
+    color: #585858;
+    text-decoration: underline;
+}
+
+.chart-legend {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
