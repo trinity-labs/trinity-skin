@@ -59,6 +59,12 @@
     border-radius: 2px;
 }
 
+#legend-object {
+    text-align: left !important;
+    font-size: 0.66rem;
+    color: #a7a7a7;
+}
+
 #legend b {
     font-weight: normal;
     color: #585858;
@@ -71,4 +77,10 @@
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.chart-bar {
+    font-family: monospace !important;
+    font-size: 0.75rem;
+    margin: 0.75rem 0 2.5rem !important;
 }

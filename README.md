@@ -1,3 +1,18 @@
+ ```diff
+ 
+! !!! WARNING !!! - Project in constant dev and with lots of things to verify custom and modify ! 
+
+```
+
+```diff
+@@ Please, report us any bugs and feel free to collaborate - Thanks a lot ! @@ 
+ ```
+ 
+ ```diff
++ Commited, Maintained and Constantly Update 
+```
+
+<br>
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45216746/221048916-d990ce07-dc89-4f1c-9e76-aeea75a173a0.png">
 <p>
@@ -7,7 +22,17 @@
 
 It's a modern skin for Linux `Alpine Configuration Framework` commonly called [ACF](https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design)
 
-[Alpine](https://alpinelinux.org/about/) Linux became popular since `Docker` image size and efficiency are essestial. Minimalist & Secure Linux Distro, `Alpine` is perfect for low powered / performances systems (think for use-it : in barebones, supervisor, nas, server, etc ...)
+[Alpine](https://alpinelinux.org/about/) Linux became popular since `Docker` image size and efficiency are essestial.  
+Minimalist & Secure Linux Distro, `Alpine` is perfect for low powered and/or low performances systems. 
+
+**The perfect solution for reduce waste of system ressources and downsizing energy consumption.**  
+
+Alpine is quite secure :
+
+> *"Alpine Linux was designed with security in mind. All userland binaries are compiled as Position Independent Executables (PIE) with stack smashing protection. These proactive security features prevent exploitation of entire classes of zero-day and other vulnerabilities."  
+<sub>[Alpine Linux - Website](https://alpinelinux.org/about/)</sub>*
+
+<br>
 
 <h4 align="center">TRIИITY Skin - Alpine ACF</h4>
 
@@ -21,7 +46,7 @@ From any fresh install on : `system` `container` `image` or `VM` !
   $: setup-alpine
   ``` 
   
-It's an Alpine native & build-in `script` to setup entire system this include :
+It's an Alpine native & build-in `script` to setup entire system, this include :
 
 - Keyboard Keys LANG
 - User
@@ -43,17 +68,37 @@ It's an Alpine native & build-in `script` to setup entire system this include :
 All files and folders are store on local system in ` /usr/share/acf/www/skins/trinity `
 
 <ins>**Get ACF First**</ins> :
-  ```css
+  c``css
   $: setup-acf
   ```
   
-  *Optional : After yes to all questions, go to `https://192.168.X.XXX` (replace **` X.XXX `** with you Alpine host `IP`)*
+ Edit **ACF** core config file `/etc/acf/acf.conf` and replace following lines for overriding core template
+ 
+  ```css
+ ...
+ # Directories where the application resides
+ ...
+appdir=/usr/share/acf/www/skins/trinity/app/,/usr/share/acf/app/
+libdir=/usr/share/acf/www/skins/trinity/lib/,/usr/share/acf/lib/
+wwwdir=/usr/share/acf/www/
+staticdir=/skins/static/
+skindir=/skins/,/userskins/
+...
+  ```
+  
+   ```css
+ ...
+# ACF is skinnable - this specifies the active skin
+#  will attempt to load skin/basename(skin).css
+skin=/skins/trinity
+...
+  ```
   
   <ins>**Get TRIИITY skin**</ins> :
   
   <h3>Web GUI Method</h3>
   
-  Download GitHub ZIP Archive and extract in /usr/share/acf/www/skins/trinity
+  Download GitHub ZIP archive and extract **content** of  ` trinity-skin-main ` in  ` /usr/share/acf/www/skins/trinity `
   
   https://github.com/trinity-labs/trinity-skin/archive/refs/heads/main.zip
   
@@ -61,7 +106,9 @@ All files and folders are store on local system in ` /usr/share/acf/www/skins/tr
   
   https://192.168.X.XXX/cgi-bin/acf/acf-util/skins/update (after login with system credential) 
   
-  **select `/skins/trinity` apply and 💜**
+  Select `/skins/trinity`  
+  
+  **Apply and 💜**
   
   <h3>Git Method</h3>
   

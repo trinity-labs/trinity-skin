@@ -61,7 +61,7 @@
     line-height: 1.5rem;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 100%;
+    width: auto;
     font-weight: 600;
     justify-content: flex-start;
     align-items: stretch;
@@ -123,7 +123,8 @@
 }
 
 #content table form {
-	display: inline-block;
+    display: inline-block;
+    margin: 0;
 }
 
 #content .submit {
@@ -181,8 +182,11 @@
 }
 
 #content table td {
-	padding: 0.4em;
-    border: 1px solid white !important;
+    display: table-cell;
+    padding: 0.75rem 0.5rem;
+    border: 3px solid white;
+    text-align: center;
+    vertical-align: middle;
 }
 
 #content table td.header {

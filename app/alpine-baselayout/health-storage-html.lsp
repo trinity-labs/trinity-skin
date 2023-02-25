@@ -3,6 +3,11 @@
 <% html = require("acf.html") %>
 
 <% displaydisk = function(disk, name)
+io.write('<table id="legend-title" style="margin:0px;padding:0px;border:0px;margin-top:5px;">\n')
+io.write("	<tr>\n")
+io.write('		<td id="legend-object" width="100px"><b>'..html.html_escape(name)..'</b></td>\n')
+io.write("	</tr>\n")
+io.write("</table>\n")
 io.write("<pre>"..html.html_escape(disk.value).."</pre>\n")
 io.write('<table class="chart-bar chart-storage">\n')
 io.write("	<tr>\n")
@@ -22,11 +27,6 @@ if tonumber(disk.used) < 100 then
 	io.write('</b></center></td>\n')
 end
 io.write('		<td>100%</td>\n')
-io.write("	</tr>\n")
-io.write("</table>\n")
-io.write('<table style="margin:0px;padding:0px;border:0px;margin-top:5px;">\n')
-io.write("	<tr>\n")
-io.write('		<td width="100px"><b>'..html.html_escape(name)..'</b></td><td id="capacity-used" width="20px"></td><td width="70px"><b>=Used</b></td><td id="capacity-free" width="20px"></td><td><b>=Free</b></td>\n')
 io.write("	</tr>\n")
 io.write("</table>\n")
 end %>
