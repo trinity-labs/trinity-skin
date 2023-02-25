@@ -74,7 +74,7 @@ All files and folders are store on local system in ` /usr/share/acf/www/skins/tr
   $: setup-acf
   ```
   
- Edit **ACF** core config file `/etc/acf/acf.conf` and replace following lines for overriding core template
+ Edit [ACF](https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design#ACF_Layout) core config file `/etc/acf/acf.conf` and replace following lines for overriding core template
  
   ```css
  ...
