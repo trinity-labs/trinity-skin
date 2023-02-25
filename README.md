@@ -1,6 +1,6 @@
  ```diff
  
-! !!! WARNING !!! - Project in constant dev and with lots of things to verify custom and modify ! 
+! !!! WARNING !!! - Project in constant dev and with lots of things to verify, custom and modify ! 
 
 ```
 
