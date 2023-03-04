@@ -4,15 +4,15 @@
  */
  
 .capacity-used {
-	background: #ef5959;
+    background: #ff6363;
 }
 
 .capacity-buffered {
-	background:#ffd45d;
+    background: #f9be1c;
 }
 
 .capacity-free {
-    background: #8df558;
+    background: #6fc942;
 }
  
 #capacity-used {
