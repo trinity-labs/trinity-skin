@@ -160,7 +160,7 @@ function mymodule.displayitem(myitem, page_info, header_level, name, group)
 		mymodule.displayitemmiddle(myitem, page_info, header_level)
 		class = ""
 		if myitem.class then
-			class = ' class="'..html.html_escape(myitem.class)..'"'
+			class = 'class="'..html.html_escape(myitem.class)..'"'
 		end
 		local value = tostring(myitem.value)
 		if type(myitem.value) == "table" then
@@ -342,7 +342,7 @@ function mymodule.displayformend(myform, header_level)
 			io.write('value="' .. html.html_escape(v) .. '">\n')
 		end
 	else
-		io.write('<input class="'..html.html_escape(myform.class)..' submit" type="submit" ')
+		io.write('<input class="submit '..html.html_escape(myform.class)..'" type="submit" ')
 		if "form" == myform.type then
 			io.write('name="submit" ')
 		end

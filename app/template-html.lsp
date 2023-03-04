@@ -61,9 +61,29 @@ end
 
 	</head>
 	
-<!--ADD BODY CLASS AND ID CAT PAGE NAME - 20230702-->
+<!--ADD BODY CLASS - 20230207-->
 
-	<body id="<%= pageinfo.controller.."_"..pageinfo.action %>" class="<%= pageinfo.controller %>">
+<%
+	local class
+	local tabs
+	if (#session.menu.cats > 0) then
+		for x,cat in ipairs(session.menu.cats) do
+			for y,group in ipairs(cat.groups) do
+				if not tabs and group.controllers[pageinfo.prefix .. pageinfo.controller] then
+				tabs = group.tabs
+%>
+
+<!--ADD ID CAT PAGE NAME - 20230304-->
+ <body id="<%= html.html_escape(cat.name) %>" class="<%= pageinfo.controller.." "..pageinfo.controller.."-"..pageinfo.action %>">
+	
+<% 
+				end
+			end
+		end
+	end 
+%>
+	
+	<body class="<%= pageinfo.controller.." "..pageinfo.controller.."-"..pageinfo.action %>">
 
 <% if pageinfo.skinned ~= "false" then %>
 
@@ -71,8 +91,8 @@ end
 		<div class="page-<%= pageinfo.controller %>" id="page-<%= pageinfo.action %>">
 			<div id="header">
 			
-<!--REMOVE TITLE AND MOVE HOSTNAME IN FOOTER - 20231002
-				<h1>AlpineLinux</h1>
+<!--REMOVE TITLE AND MOVE HOSTNAME IN FOOTER - 20230210
+				<h1>Alpine Linux</h1>
 				<p class="hostname"><%= html.html_escape(hostname or "unknown hostname") %></p>
 -->
 				
@@ -100,8 +120,9 @@ end
 					if (#session.menu.cats > 0) then
 						print("<ul>")
 						for x,cat in ipairs(session.menu.cats) do
+							cat.name = string.gsub(string.lower(cat.name), "%s+", "_")
 							print("<!--ADD ITEM TITLE AND CATEGORY - 20231102-->")
-							print("<li id='category-list'><h1 id='category-title'>"..html.html_escape(cat.name).."</h1>")
+							print("<li id='"..html.html_escape(cat.name).."-menu' class='category-menu'><h1 id='"..html.html_escape(cat.name).."-title' class='category-title'>"..html.html_escape(cat.name).."</h1>")
 							print("<ul id='item-list'>")
 							for y,group in ipairs(cat.groups) do
 								class="class='item-field'"

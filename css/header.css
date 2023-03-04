@@ -17,7 +17,12 @@
     background-repeat: no-repeat;
 }
 
-.interfaces #header {
+/*----------------------------------------------------------------------------------
+ * NETWORKING HEADER & GLOBAL COLOR
+ *----------------------------------------------------------------------------------
+ */
+
+#networking #header {
     height: 4rem;
     padding: 1rem;
     background: #00808d;
@@ -31,14 +36,22 @@
     background-repeat: no-repeat;
 }
 
-.interfaces #subnav ul li.selected a,
-.interfaces #subnav ul li a:hover {
+#networking #networking-title.category-title {
+    background: #00808d;
+}
+
+#networking-title.category-title:hover {
+    background: #00808d;
+}
+
+#networking #subnav ul li.selected a,
+#networking #subnav ul li a:hover {
     background-color: #00808d;
     border: 1px solid #00808d;
     color: #FFF;
 }
 
-.interfaces #content .submit {
+#networking #content .submit {
     font-size: 0.65rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -50,7 +63,14 @@
     background: #00808d;
 }
 
-.openssl #header {
+
+
+/*----------------------------------------------------------------------------------
+ * APPLICATIONS HEADER
+ *----------------------------------------------------------------------------------
+ */
+ 
+ #applications #header {
     height: 4rem;
     padding: 1rem;
     background: #890259;
@@ -64,14 +84,22 @@
     background-repeat: no-repeat;
 }
 
-.openssl #subnav ul li.selected a,
-.openssl #subnav ul li a:hover {
+#applications #applications-title.category-title {
+    background: #890259;
+}
+
+#applications-title.category-title:hover {
+    background: #890259;
+}
+
+#applications #subnav ul li.selected a,
+#applications #subnav ul li a:hover {
     background-color: #890259;
     border: 1px solid #890259;
     color: #FFF;
 }
 
-.openssl #content .submit {
+#applications #content .submit {
     font-size: 0.65rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -83,19 +111,10 @@
     background: #890259;
 }
 
-#networking #header {
-    height: 4rem;
-    padding: 1rem;
-    background: #009191;
-    display: flex;
-    background-size: 8rem;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background-image: url(../img/logo-trinity-full-white.png);
-    background-position: 5rem center;
-    justify-content: flex-end;
-    background-repeat: no-repeat;
-}
+/*----------------------------------------------------------------------------------
+ * DEFAULT
+ *----------------------------------------------------------------------------------
+ */
 
 #header p {
     font-weight: 600;
@@ -131,4 +150,9 @@
     position: relative;
     top: -0.05rem;
     font-size: 0.75rem;
+}
+
+#system #system-title.category-title,
+#system-title.category-title:hover {
+    background: #3d007e;
 }

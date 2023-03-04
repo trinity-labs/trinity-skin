@@ -35,7 +35,7 @@ end
 mymodule.get_logon = function(self, clientdata)
 	local cmdresult = cfe({ type="group", value={}, label="Logon" })
 	cmdresult.value.userid = cfe({ value=self.clientdata.userid or "", label="User ID", seq=1 })
-	cmdresult.value.password = cfe({ type="password", label="Password", placeholder="toto@exemple.com", seq=2 })
+	cmdresult.value.password = cfe({ type="password", label="Password", seq=2 })
 	cmdresult.value.redir = cfe({ type="hidden", value=self.clientdata.redir, label="" })
 	return cmdresult
 end

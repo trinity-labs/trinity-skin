@@ -3,7 +3,7 @@
  *----------------------------------------------------------------------------------
  */
 
-body#logon_logon {
+.logon-logon {
     background: url(../img/background-trinity.png) no-repeat;
     background-size: cover !important;
     padding: 15rem 10rem;
@@ -14,21 +14,21 @@ body#logon_logon {
     align-items: center;
 }
 
-#logon_logon .hostname,
-#logon_logon #header h1 {
+.logon-logon .hostname,
+.logon-logon #header h1 {
     display: none;
 }
 
-#logon_logon #header {
+.logon-logon #header {
     border-radius: 4px 4px 0 0 !important;
     background-position: 4.5rem center;
 }
 
-#logon_logon #header a:first-child {
+.logon-logon #header a:first-child {
     font-weight: 600;
 }
 
-#logon_logon #header a:first-child:before {
+.logon-logon #header a:first-child:before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F023';
@@ -38,12 +38,12 @@ body#logon_logon {
     font-size: 0.75rem;
 }
 
-#logon_logon #nav,
-#logon_logon #subnav {
+.logon-logon #nav,
+.logon-logon #subnav {
 	display: none;
 }
 
-#logon_logon #main {
+.logon-logon #main {
     width: auto;
     margin: 0 auto;
     display: flex;
@@ -54,7 +54,7 @@ body#logon_logon {
     padding: 4rem 4rem 0;
 }
 
-#logon_logon .item {
+.logon-logon .item {
     display: flex;
     margin: 1rem 0 0 0;
     flex-direction: row;
@@ -73,16 +73,16 @@ body#logon_logon {
     width: 15% !important;
 }
 
-#logon_logon #header a {
+.logon-logon #header a {
     font-size: 0.75rem;
 }
 
-#logon_logon label.left {
+.logon-logon label.left {
     padding-left: 0 !important;
     color: white;
 }
 
-#logon_logon #content .submit {
+.logon-logon #content .submit {
     font-size: 0.8rem;
     text-transform: capitalize;
     color: #FFF;
@@ -93,13 +93,13 @@ body#logon_logon {
     height: 3rem;
 }
 
-#logon_logon input {
+.logon-logon input {
     padding: 0.5rem 0 0.5rem 0.5rem !important;
     border: none !important;
     border-radius: 2px;
 }
 
-#logon_logon .error:before {
+.logon-logon .error:before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F502';
@@ -110,11 +110,17 @@ body#logon_logon {
     top: -0.1rem;
 }
 
-#logon_logon .item:last-child {
+.logon-logon .item:last-child {
     margin: 3rem 0 0;
 }
 
-#logon_logon .error {
+#section_logon #error {
+    width: 87.5% !important;
+    padding: 1rem 1.5rem;
+}
+
+
+.logon-logon .error {
     font-weight: bold;
     color: white;
     margin-bottom: 2rem;
@@ -124,12 +130,12 @@ body#logon_logon {
     border-radius: 2.5px;
 }
 
-#logon_logon #content dd,
-#logon_logon #content .item .right {
+.logon-logon #content dd,
+.logon-logon #content .item .right {
     margin: auto;
 }
 
-#logon_logon #content {
+.logon-logon #content {
     float: none !important;
     border: none !important;
     width: 100%;
@@ -142,11 +148,11 @@ body#logon_logon {
     justify-content: space-between;
 }
 
-#logon_logon #footer {
+.logon-logon #footer {
     border: none !important;
 }
 
-#logon_logon #content h1 {
+.logon-logon #content h1 {
     display: none;
 }
 
