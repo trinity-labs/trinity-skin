@@ -6,7 +6,6 @@
 .logon-logon {
     background: url(../img/background-trinity.png) no-repeat;
     background-size: cover !important;
-    padding: 15rem 10rem;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
