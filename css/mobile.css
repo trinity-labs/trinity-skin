@@ -1,0 +1,17 @@
+/*----------------------------------------------------------------------------------
+ * MEDIA QUERIES
+ *----------------------------------------------------------------------------------
+ */
+
+@media only screen and (min-device-width : 0px) and (max-device-width : 992px) {
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+}

@@ -31,7 +31,7 @@ end
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 <% if pageinfo.skinned ~= "false" then %>
 		<title><%= html.html_escape(hostname .. " - " .. pageinfo.controller .. "/" .. pageinfo.action) %></title>
 
@@ -88,7 +88,7 @@ end
 <% if pageinfo.skinned ~= "false" then %>
 
 <!--ADD PAGE TITLE AND CATEGORY - 20230702-->
-		<div class="page-<%= pageinfo.controller %>" id="page-<%= pageinfo.action %>">
+		<div id="page-<%= pageinfo.action %>" class="page page-<%= pageinfo.controller %>">
 			<div id="header">
 			
 <!--REMOVE TITLE AND MOVE HOSTNAME IN FOOTER - 20230210

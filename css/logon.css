@@ -8,6 +8,7 @@
     background-size: cover !important;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
@@ -66,10 +67,11 @@
     background: rgb(0 0 0 / 50%);
     border-radius: 4px !important;
     width: 33.33rem;
+	zoom: 75%;
 }
 
 #logon label.left {
-    width: 15% !important;
+    width: 3rem !important;
 }
 
 .logon-logon #header a {
@@ -138,13 +140,13 @@
     float: none !important;
     border: none !important;
     width: 100%;
-    padding: 0.25rem 0 0rem 0;
+    padding: 0;
     display: flex;
     text-align: center;
     flex-wrap: nowrap;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .logon-logon #footer {
@@ -155,13 +157,10 @@
     display: none;
 }
 
-#section_logon {
-    width: 100%;
-}
 
-#section_logon form {
+.logon-logon form {
     display: flex;
-    margin: 0 auto 0.5rem;
+    margin: 0;
     width: 100% !important;
     flex-direction: column;
     flex-wrap: wrap;

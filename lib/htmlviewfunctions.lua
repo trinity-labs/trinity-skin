@@ -35,7 +35,7 @@ function mymodule.displaysectionstart(myitem, page_info, header_level)
 --[[
 		FIX myitem CSS ID BY ADD CSS CLASS VARIABLE - 20230902
 --]]
-	myitem.css_name = string.gsub(string.lower(myitem.label), "%s+", "_") -- ADD GSUB AND _ FOR HTML ID--
+	myitem.css_name = string.gsub(string.lower(myitem.label), "%s+", "-") -- ADD GSUB AND "-" FOR HTML ID--
 --[[
 		FIX myitem CSS ID BY ADD NAME TO EACH BLOCK OF CATEGORY PAGE BLOCK - 20230902
 --]]
@@ -45,7 +45,7 @@ function mymodule.displaysectionstart(myitem, page_info, header_level)
 --[[
 		FIX myitem CSS ID BY ADD NAME TO EACH BLOCK OF CATEGORY PAGE BLOCK - 20230902
 --]]
-		print('<div class="section-'..tostring(header_level)..'" id="section_'..html.html_escape(myitem.css_name)..'">') -- (myitem.css_name) --
+		print('<div class="section-'..tostring(header_level)..'" id="section-'..html.html_escape(myitem.css_name)..'">') -- (myitem.css_name) --
 --[[
 		FIX myitem CSS ID BY ADD NAME TO EACH TITLE OF CATEGORY PAGE BLOCK - 20230902
 --]]

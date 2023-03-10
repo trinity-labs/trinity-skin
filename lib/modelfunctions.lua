@@ -263,7 +263,7 @@ mymodule.run_executable = function(args, include_err, input)
 	local errtxt
        	local res, err = pcall(function()
 		-- For security, set the path
-		posix.setenv("PATH", "/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin")
+		posix.setenv("PATH", "/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin")
 
 		if input then
 			args.stdin = subprocess.PIPE
