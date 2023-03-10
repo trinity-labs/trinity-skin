@@ -121,7 +121,7 @@ mymodule.get_proc = function (self)
 	local proc = {}
 	proc.processor = cfe({ value=fs.read_file("/proc/cpuinfo") or "", label="Processor" })
 	proc.memory = cfe({ value=fs.read_file("/proc/meminfo") or "", label="Memory" })
-	proc.model = cfe({ value=querycmd("grep -m 1 'model name' /proc/cpuinfo") or "", label="CPU Model" })
+	proc.model = cfe({ value=querycmd("sed -n 5p /proc/cpuinfo") or "", label="CPU Model" })
 	return cfe({ type="group", value=proc, label="Hardware Information" })
 end
 
