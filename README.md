@@ -1,17 +1,3 @@
- ```diff
- 
-! !!! WARNING !!! - Project in constant dev and with lots of things to verify, custom and modify ! 
-
-```
-
-```diff
-@@ Please, report us any bugs and feel free to collaborate - Thanks a lot ! @@ 
- ```
- 
- ```diff
-+ Commited, Maintained and Constantly Update 
-```
-
 <br>
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45216746/221048916-d990ce07-dc89-4f1c-9e76-aeea75a173a0.png">
@@ -33,6 +19,21 @@ Alpine is quite secure :
 > *"Alpine Linux was designed with security in mind. All userland binaries are compiled as Position Independent Executables (PIE) with stack smashing protection. These proactive security features prevent exploitation of entire classes of zero-day and other vulnerabilities."  
 <sub>[Alpine Linux - Website](https://alpinelinux.org/about/)</sub>*
 
+<br>
+
+```diff
+ 
+! !!! WARNING !!! - Project in constant dev and with lots of things to verify, custom and modify ! 
+
+```
+
+```diff
+@@ Please, report us any bugs and feel free to collaborate - Thanks a lot ! @@ 
+ ```
+ 
+ ```diff
++ Commited, Maintained and Constantly Update 
+```
 <br>
 
 <h4 align="center">TRIИITY Skin - Alpine ACF</h4>
