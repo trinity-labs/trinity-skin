@@ -22,9 +22,7 @@ Alpine is quite secure :
 <br>
 
 ```diff
- 
 ! !!! WARNING !!! - Project in constant dev and with lots of things to verify, custom and modify ! 
-
 ```
 
 ```diff
@@ -41,6 +39,8 @@ Alpine is quite secure :
 <h2>Setup</h2>
 
 <ins>**Requirement**</ins> **:**
+
+Alpine Linux Extended edition prefered or Standard with `cat` `sed` and `awk` apk packages installed on
 
 From any fresh install on : `system` `container` `image` or `VM` !
 
