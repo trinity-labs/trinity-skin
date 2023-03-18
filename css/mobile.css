@@ -87,7 +87,10 @@
 	#legend-free {
     position: relative;
     top: 0.75rem;
-}
+	}
 	
-
+	#content table td:first-child, #content table td:last-child {
+    display: none;
+	}
+	
 }

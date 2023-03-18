@@ -37,11 +37,9 @@ end
 
 		<link rel="stylesheet" type="text/css" href="<%= html.html_escape(pageinfo.wwwprefix..pageinfo.staticdir) %>/reset.css">
 		<link rel="stylesheet" type="text/css" href="<%= html.html_escape(pageinfo.wwwprefix..pageinfo.skin.."/"..posix.basename(pageinfo.skin)..".css") %>">
-		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
 		<!--[if IE]>
 		<link rel="stylesheet" type="text/css" href="<%= html.html_escape(pageinfo.wwwprefix..pageinfo.skin.."/"..posix.basename(pageinfo.skin).."-ie.css") %>">
 		<![endif]-->
-
 		<script type="text/javascript">
 			if (typeof jQuery == 'undefined') {
 				document.write('<script type="text/javascript" src="<%= html.html_escape(pageinfo.wwwprefix) %>/js/jquery-latest.js"><\/script>');
@@ -53,10 +51,7 @@ end
 				$(":input:not(input[type=button],input[type=submit],button):enabled:not([readonly]):visible:first").focus();
 			});
 		</script> 
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js">
-		 $(function $init()
-		 {return true;});
-		</script>
+
 <% end -- pageinfo.skinned %>
 
 	</head>

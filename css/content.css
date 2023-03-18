@@ -62,7 +62,7 @@
     line-height: 1.5rem;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 100%;
+    width: auto;
     font-weight: 600;
     justify-content: flex-start;
     align-items: stretch;

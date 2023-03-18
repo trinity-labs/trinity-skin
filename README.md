@@ -138,19 +138,30 @@ skin=/skins/trinity
 
 **` TRIИITY Skin - Logon `**
 
-![thumbnail-login](https://user-images.githubusercontent.com/45216746/221051043-288e9886-2726-483e-962b-6b65b1959a47.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45216746/226126111-6cdfce1e-ec6c-4a02-b0c5-228c5cce108b.png" width="80%" >
+</p>
 
 **` TRIИITY Skin - System `**
 
-![thumbnail-system](https://user-images.githubusercontent.com/45216746/221053372-411ef8f1-8010-49d7-8484-703d9c944433.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45216746/226128994-bec1f16d-dc41-4bd0-b7f7-09cfcb029955.png" width="80%" >
+</p>
 
 **` TRIИITY Skin - Applications `**
 
-![thumbnail-applications](https://user-images.githubusercontent.com/45216746/221052250-73036e34-c6de-48c3-8d0b-7c4bee5e39fa.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45216746/226138946-704dfa2e-1eea-4115-ba67-67a01fc3b56b.png" width="80%" >
+</p>
 
 **` TRIИITY Skin - Networking `**
 
-![thumbnail-networking](https://user-images.githubusercontent.com/45216746/221052362-cc02dded-e915-482e-9b3a-eb8cb344ca6c.png)
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45216746/226140190-a911cf6f-a957-40ed-b84f-bf957e5315c8.png" width="80%" >
+</p>
+
 
 <h2>Todo List</h2>
 
