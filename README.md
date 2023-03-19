@@ -3,7 +3,6 @@
  <img src="https://user-images.githubusercontent.com/45216746/221048916-d990ce07-dc89-4f1c-9e76-aeea75a173a0.png">
 <p>
 <hr/>
-<br>
 
   ![](https://img.shields.io/github/stars/trinity-labs/trinity-skin.svg)
   [![Views](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Ftrinity-labs%2Ftrinity-skin.json%3Fcolor%3Dpurple)](https://github.com/trinity-labs/trinity-skin)

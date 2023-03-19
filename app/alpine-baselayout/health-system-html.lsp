@@ -12,15 +12,6 @@ local header_level2 = htmlviewfunctions.incrementheader(header_level)
 <pre><code><%= html.html_escape(view.value.uname.value) %></code></pre>
 <% htmlviewfunctions.displaysectionend(header_level2) %>
 
-<% htmlviewfunctions.displaysectionstart(cfe({label="Uptime"}), page_info, header_level2) %>
-<pre><%= html.html_escape(view.value.uptime.value) %></pre>
-<% htmlviewfunctions.displaysectionend(header_level2) %>
-
-<% htmlviewfunctions.displaysectionstart(cfe({label="Time/TimeZone"}), page_info, header_level2) %>
-<pre><%= html.html_escape(view.value.date.value) %></pre>
-<pre><%= html.html_escape(view.value.timezone.value) %></pre>
-<% htmlviewfunctions.displaysectionend(header_level2) %>
-
 <% htmlviewfunctions.displaysectionstart(cfe({label="Memory"}), page_info, header_level2) %>
 <pre><%= html.html_escape(view.value.memory.value) %></pre>
 
@@ -57,6 +48,17 @@ end
 		<p id="legend-free" class="capacity-free"></p>
 		<p width="70px"><b>= Free</b></p>
 </div>
+
+<% htmlviewfunctions.displaysectionstart(cfe({label="Uptime"}), page_info, header_level2) %>
+<pre><%= html.html_escape(view.value.uptime.value) %></pre>
+<% htmlviewfunctions.displaysectionend(header_level2) %>
+
+<% htmlviewfunctions.displaysectionstart(cfe({label="Time/TimeZone"}), page_info, header_level2) %>
+<pre><%= html.html_escape(view.value.date.value) %></pre>
+<!---<pre><%= html.html_escape(view.value.timezone.value) %></pre>--->
+<% htmlviewfunctions.displaysectionend(header_level2) %>
+
+
 
 <% htmlviewfunctions.displaysectionend(header_level2) %>
 
