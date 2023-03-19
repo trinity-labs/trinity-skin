@@ -20,7 +20,7 @@
 }
 
 .logon-logon #header {
-    border-radius: 4px 4px 0 0 !important;
+    border-radius: 10px 10px 0 0 !important;
     background-position: 4.5rem center;
 }
 
@@ -51,7 +51,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 4rem 4rem 0;
+    padding: 0 4rem 0;
 }
 
 .logon-logon .item {
@@ -65,7 +65,7 @@
 
 #page-logon {
     background: rgb(0 0 0 / 50%);
-    border-radius: 4px !important;
+    border-radius: 10px !important;
     width: 33.33rem;
 }
 
@@ -149,6 +149,7 @@
 }
 
 .logon-logon #footer {
+    margin: 5em 0 0rem 0;
     border: none !important;
 }
 
@@ -165,4 +166,8 @@
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-evenly;
+}
+
+.logon .item {
+    margin-top: 3rem;
 }
