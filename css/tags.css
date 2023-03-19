@@ -39,6 +39,12 @@ hr {
 	height:3px;
 }
 
+.error-txt {
+    padding: 1rem 0;
+    color: #ff6363;
+    font-weight: bold;
+}
+
 #error:before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;

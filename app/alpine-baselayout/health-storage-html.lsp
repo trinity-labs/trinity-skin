@@ -42,7 +42,7 @@ for name,floppy in pairs(view.value.floppy.value) do
 	displaydisk(floppy, name)
 end
 else %>
-<p>No Floppy mounted</p>
+<p class="error error-txt">No Floppy mounted</p>
 <% end %>
 <% htmlviewfunctions.displaysectionend(header_level2) %>
 

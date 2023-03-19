@@ -2,28 +2,13 @@
  * PAGE > ICONS
  *----------------------------------------------------------------------------------
  */
+ 
+ /*----------------------------------------------------------------------------------
+ * NETWORKING
+ *----------------------------------------------------------------------------------
+ */
 
-#section-openssl-status h1:before {
-    font-family: "Font Awesome 6 Free";
-    font-weight: bold;
-    content: '\F023';
-    margin: 0 1rem 0 0.5rem;
-    color: rgb(0 0 0 / 32%);
-    position: relative;
-    font-size: 1.25rem;
-}
-
-#section-interfaces h1:before {
-    font-family: "Font Awesome 6 Free";
-    font-weight: bold;
-    content: '\F796';
-    margin: 0 1rem 0 0.5rem;
-    color: rgb(0 0 0 / 32%);
-    position: relative;
-    font-size: 1.25rem;
-}
-
-#section-interfaces-status h1:before {
+#networking #content h1:before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F6FF';
@@ -36,37 +21,7 @@
 #section-restart-networking h1:before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
-    content: '\F2F1';
-    margin: 0 1rem 0 0.5rem;
-    color: rgb(0 0 0 / 32%);
-    position: relative;
-    font-size: 1.25rem;
-}
-
-#section-system h1:before {
-    font-family: "Font Awesome 6 Free";
-    font-weight: bold;
-    content: '\E163';
-    margin: 0 1rem 0 0.5rem;
-    color: rgb(0 0 0 / 32%);
-    position: relative;
-    font-size: 1.25rem;
-}
-
-#section-hardware-information h1:before {
-    font-family: "Font Awesome 6 Free";
-    font-weight: bold;
-    content: '\F2DB';
-    margin: 0 1rem 0 0.5rem;
-    color: rgb(0 0 0 / 32%);
-    position: relative;
-    font-size: 1.25rem;
-}
-
-#section-storage h1:before {
-    font-family: "Font Awesome 6 Free";
-    font-weight: bold;
-    content: '\F0A0';
+    content: '\F2F1' !important;
     margin: 0 1rem 0 0.5rem;
     color: rgb(0 0 0 / 32%);
     position: relative;
@@ -76,7 +31,7 @@
 #section-network h1:before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
-    content: '\F6FF';
+    content: '\F6FF' !important;
     margin: 0 1rem 0 0.5rem;
     color: rgb(0 0 0 / 32%);
     position: relative;
@@ -86,7 +41,69 @@
 #section-network-statistics h1:before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
-    content: '\F0EC';
+    content: '\F0EC' !important;
+    margin: 0 1rem 0 0.5rem;
+    color: rgb(0 0 0 / 32%);
+    position: relative;
+    font-size: 1.25rem;
+}
+ 
+ /*----------------------------------------------------------------------------------
+ * APPLICATIONS
+ *----------------------------------------------------------------------------------
+ */
+ 
+ #applications #content h1:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F1B3';
+    margin: 0 1rem 0 0.5rem;
+    color: rgb(0 0 0 / 32%);
+    position: relative;
+    font-size: 1.25rem;
+}
+
+.openssl #content h1:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F023' !important;
+    margin: 0 1rem 0 0.5rem;
+    color: rgb(0 0 0 / 32%);
+    position: relative;
+    font-size: 1.25rem;
+}
+
+/*----------------------------------------------------------------------------------
+ * SYSTEM
+ *----------------------------------------------------------------------------------
+ */
+
+
+
+#system #content h1:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\E163' !important;
+    margin: 0 1rem 0 0.5rem;
+    color: rgb(0 0 0 / 32%);
+    position: relative;
+    font-size: 1.25rem;
+}
+
+#section-hardware-information h1:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F2DB' !important;
+    margin: 0 1rem 0 0.5rem;
+    color: rgb(0 0 0 / 32%);
+    position: relative;
+    font-size: 1.25rem;
+}
+
+#section-storage h1:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F0A0' !important;
     margin: 0 1rem 0 0.5rem;
     color: rgb(0 0 0 / 32%);
     position: relative;
