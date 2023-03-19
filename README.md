@@ -182,4 +182,4 @@ skin=/skins/trinity
 + Mobile Design (Done - Minor Bugs)
 ```
 
-Enjoy, Love an Hack It 💜 - Regards from <img src="https://user-images.githubusercontent.com/45216746/226208297-32a0371b-83db-4a0e-ae33-70e74ca2b2e5.png" width="1.5%" >
+Enjoy, Love an Hack It 💜 - Regards from &nbsp;<img src="https://user-images.githubusercontent.com/45216746/226208297-32a0371b-83db-4a0e-ae33-70e74ca2b2e5.png" width="1.75%" >
