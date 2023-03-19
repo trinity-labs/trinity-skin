@@ -16,6 +16,8 @@
 
 It's a modern skin for Linux `Alpine Configuration Framework` commonly called [ACF](https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design)
 
+A French Project where `И` of `TIИITY` means : **Nginx prefered solution as default front server for our personal mainframe**
+
 [Alpine](https://alpinelinux.org/about/) Linux became popular since `Docker` image size and efficiency are essestial.  
 Minimalist & Secure Linux Distro, `Alpine` is perfect for low powered and/or low performances systems. 
 
@@ -179,3 +181,5 @@ skin=/skins/trinity
 + Deal with ShellInABox CGI Scripts or easiest method to get a shell (Work in progress - Help Appreciate)
 + Mobile Design (Done - Minor Bugs)
 ```
+
+Enjoy, Love an Hack It 💜 - Regards from <img src="https://user-images.githubusercontent.com/45216746/226208297-32a0371b-83db-4a0e-ae33-70e74ca2b2e5.png" width="1.5%" >
