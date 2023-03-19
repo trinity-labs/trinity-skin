@@ -25,11 +25,9 @@ end %>
 	local interface = entry.value
 	htmlviewfunctions.displayitemstart()
 	%>
-	<img src='<%= html.html_escape(page_info.wwwprefix..page_info.staticdir) %>/tango/16x16/devices/network-wired.png' width='16' height='16'> <%= html.html_escape(interface.name.value) %>
+	<span class="interface-name"><%= html.html_escape(interface.name.value) %></span>
 	<% htmlviewfunctions.displayitemmiddle() %>
 	<table style='margin-bottom:10px'>
-
-	
 
 	<%
 	showoption(interface.family)
@@ -39,6 +37,8 @@ end %>
 			showoption(option)
 		end
 	end %>
+	
+<!--REVERSE INPUT AND INFO - 20231903-->
 	
 	<% if viewlibrary.check_permission("update") or viewlibrary.check_permission("delete") or viewlibrary.check_permission("ifup") or viewlibrary.check_permission("ifdown") then %>
 		<% local name = cfe({type="hidden", value=interface.name.value}) %>

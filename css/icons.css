@@ -47,6 +47,16 @@
     position: relative;
     font-size: 1.25rem;
 }
+
+.interface-name:before {
+	font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F796' !important;
+    margin: 0 1rem 0 0.5rem;
+    color: rgb(0 0 0 / 32%);
+    position: relative;
+    font-size: 1.25rem;
+}
  
  /*----------------------------------------------------------------------------------
  * APPLICATIONS
