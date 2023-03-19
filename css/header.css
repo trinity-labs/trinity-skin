@@ -15,6 +15,7 @@
     background-position: 8.5rem center;
     justify-content: flex-end;
     background-repeat: no-repeat;
+    align-items: center;
 }
 
 /*----------------------------------------------------------------------------------
@@ -122,7 +123,6 @@
     float: right;
     font-size: 10px;
     color: white;
-    margin-top: 23px;
 }
 	
 #header a {
