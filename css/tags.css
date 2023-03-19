@@ -43,6 +43,7 @@ hr {
     padding: 1rem 0;
     color: #ff6363;
     font-weight: bold;
+	font-family: monospace;
 }
 
 #error:before {
@@ -123,8 +124,9 @@ input.submit {
     cursor: pointer !important;
 }
 
-input.submit:hover {
-	background: #220442 !important;
+#content input.submit:hover {
+    border-color: #b5b5b5 !important;
+    background: #b5b5b5 !important;
 }
 
 #password_editme #userid {

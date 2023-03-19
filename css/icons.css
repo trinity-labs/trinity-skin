@@ -73,17 +73,26 @@
     font-size: 1.25rem;
 }
 
+.openssl-readall #content h1:before,
+.openssl-read #content h1:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F1C9' !important;
+    margin: 0 1rem 0 0.5rem;
+    color: rgb(0 0 0 / 32%);
+    position: relative;
+    font-size: 1.25rem;
+}
+
 /*----------------------------------------------------------------------------------
  * SYSTEM
  *----------------------------------------------------------------------------------
  */
 
-
-
 #system #content h1:before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
-    content: '\E163' !important;
+    content: '\E163';
     margin: 0 1rem 0 0.5rem;
     color: rgb(0 0 0 / 32%);
     position: relative;
@@ -104,6 +113,26 @@
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F0A0' !important;
+    margin: 0 1rem 0 0.5rem;
+    color: rgb(0 0 0 / 32%);
+    position: relative;
+    font-size: 1.25rem;
+}
+
+#section-storage #legend-object b:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F0A0' !important;
+    margin: 0 0.5rem 0 -0.5rem;
+    color: rgb(0 0 0 / 32%);
+    position: relative;
+    font-size: 0.75rem;
+}
+
+.apk #content h1:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F1B3' !important;
     margin: 0 1rem 0 0.5rem;
     color: rgb(0 0 0 / 32%);
     position: relative;

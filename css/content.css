@@ -104,6 +104,7 @@
     flex-wrap: nowrap;
     width: auto;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 #content from dt,
@@ -113,13 +114,12 @@
     text-align: right;
     font-weight: bold;
     float: left;
-    padding: 1.75rem 1rem 0;
+    padding: 0 1rem 0;
 }
 
 #content dd,
 #content .item .right {
-    font-size: 10.5px;
-    padding-top: 1rem;
+    font-size: 11px;
     width: 100%;
 }
 
@@ -166,6 +166,7 @@
     height: 30rem;
     border: 1px solid #cacaca;
     border-radius: 2.5px;
+    margin: 1rem auto;
     padding: 0.25rem;
 }
 
@@ -178,15 +179,15 @@
 }
 
 #content table {
-	width:100%;
-	border: none !important;
+    width: 100%;
+    border: none !important;
+    font-size: 0.75rem;
 }
 
 #content table td {
     display: table-cell;
     padding: 0.75rem 0.5rem;
     border: 3px solid white;
-    text-align: center;
     vertical-align: middle;
 }
 
