@@ -149,22 +149,23 @@ skin=/skins/trinity
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45216746/226126111-6cdfce1e-ec6c-4a02-b0c5-228c5cce108b.png" width="80%" >
 </p>
+<br>
 
 **` TRIИITY Skin - System `**
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45216746/226128994-bec1f16d-dc41-4bd0-b7f7-09cfcb029955.png" width="80%" >
 </p>
+<br>
 
 **` TRIИITY Skin - Applications `**
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45216746/226138946-704dfa2e-1eea-4115-ba67-67a01fc3b56b.png" width="80%" >
 </p>
+<br>
 
 **` TRIИITY Skin - Networking `**
-
-
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45216746/226140190-a911cf6f-a957-40ed-b84f-bf957e5315c8.png" width="80%" >
@@ -174,6 +175,7 @@ skin=/skins/trinity
 <h2>Todo List</h2>
 
 ```diff
-+ Deal with ShellInABox CGI Scripts
-+ Mobile Design
++ Create TRIИITY Wiki to handle Alpine Linux system and common hardware (TRIИITY Personal Mainframe - Work in progress)
++ Deal with ShellInABox CGI Scripts or easiest method to get a shell (Work in progress - Help Appreciate)
++ Mobile Design (Done - Minor Bugs)
 ```
