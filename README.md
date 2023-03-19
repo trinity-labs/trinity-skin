@@ -16,7 +16,7 @@
 
 It's a modern skin for Linux `Alpine Configuration Framework` commonly called [ACF](https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design)
 
-A French Project where `И` of `TIИITY` means : **Nginx prefered solution as default front server for our personal mainframe**
+A French Project where **`И`** of `TIИITY` means : **Nginx prefered solution as default front server for our personal mainframe**
 
 [Alpine](https://alpinelinux.org/about/) Linux became popular since `Docker` image size and efficiency are essestial.  
 Minimalist & Secure Linux Distro, `Alpine` is perfect for low powered and/or low performances systems. 

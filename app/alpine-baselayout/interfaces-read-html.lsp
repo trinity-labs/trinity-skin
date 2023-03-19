@@ -29,6 +29,17 @@ end %>
 	<% htmlviewfunctions.displayitemmiddle() %>
 	<table style='margin-bottom:10px'>
 
+	
+
+	<%
+	showoption(interface.family)
+	if interface.method then showoption(interface.method) end
+	for name,option in pairs(interface) do
+		if name~="name" and name~="family" and name~="method" then
+			showoption(option)
+		end
+	end %>
+	
 	<% if viewlibrary.check_permission("update") or viewlibrary.check_permission("delete") or viewlibrary.check_permission("ifup") or viewlibrary.check_permission("ifdown") then %>
 		<% local name = cfe({type="hidden", value=interface.name.value}) %>
 	<tr><td colspan=2 style='border:none;'>
@@ -46,15 +57,6 @@ end %>
 	end %>
 	</td></tr>
 	<% end %>
-
-	<%
-	showoption(interface.family)
-	if interface.method then showoption(interface.method) end
-	for name,option in pairs(interface) do
-		if name~="name" and name~="family" and name~="method" then
-			showoption(option)
-		end
-	end %>
 	</table>
 	<% htmlviewfunctions.displayitemend() %>
 <% end %>
