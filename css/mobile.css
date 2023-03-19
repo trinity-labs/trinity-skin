@@ -15,6 +15,12 @@
     width: 100% !important;
 	}
 	
+	#page-logon {
+    background: rgb(0 0 0 / 50%);
+    border-radius: 4px !important;
+    width: 33.33rem;
+    zoom: 70%;
+	}
 	
 	.page {
 	width: 100%;

@@ -4,7 +4,7 @@
  */
 
 .logon-logon {
-    background: url(../img/background-trinity.png) no-repeat;
+    background: url(../img/background-trinity-logon.png) no-repeat;
     background-size: cover !important;
     display: flex;
     flex-direction: row;
@@ -67,7 +67,6 @@
     background: rgb(0 0 0 / 50%);
     border-radius: 4px !important;
     width: 33.33rem;
-	zoom: 75%;
 }
 
 #logon label.left {
