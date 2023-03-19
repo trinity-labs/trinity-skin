@@ -6,8 +6,8 @@
 <br>
 
   ![](https://img.shields.io/github/stars/trinity-labs/trinity-skin.svg)
-  ![](https://img.shields.io/github/forks/trinity-labs/trinity-skin.svg)
-  [![Views](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Ftrinity-labs%2Ftrinity-skin.json%3Fcolor%3Dpurple)](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Ftrinity-labs%2Ftrinity-skin.json%3Fcolor%3Dpurple)
+  [![Views](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Ftrinity-labs%2Ftrinity-skin.json%3Fcolor%3Dpurple)](https://github.com/trinity-labs/trinity-skin)
+  ![contributions welcome](https://img.shields.io/badge/contributions-welcome-ff69b4.svg?style=flat)
   ![](https://img.shields.io/github/issues/trinity-labs/trinity-skin.svg)
 <!--- ![](https://img.shields.io/github/tag/trinity-labs/trinity-skin.svg) 
 ![](https://img.shields.io/github/v/release/trinity-labs/trinity-skin.svg) --->
