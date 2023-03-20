@@ -51,7 +51,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 2rem 4rem 0;
+    padding: 2rem 5.5rem 0;
 }
 
 .logon-logon .item {
@@ -149,7 +149,7 @@
 }
 
 .logon-logon #footer {
-    margin: 5em 0 0rem 0;
+    margin: 0;
     border: none !important;
 }
 

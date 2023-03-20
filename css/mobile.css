@@ -15,6 +15,10 @@
     width: 100% !important;
 	}
 	
+	.logon-logon #content {
+    /*width: 100vw;*/
+}
+	
 	#page-logon {
     background: rgb(0 0 0 / 50%);
     border-radius: 4px !important;
