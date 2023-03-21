@@ -2,13 +2,9 @@
 <% htmlviewfunctions = require("htmlviewfunctions") %>
 
 <% local header_level = htmlviewfunctions.displaysectionstart(cfe({label="Alpine Configuration Framework"}), page_info) %>
-<p>Welcome.</p>
-
-
-	<iframe id="inlineFrameExample"
-    title="Inline Frame Example"
-    src="http://192.168.1.200:7681/">
-</iframe>
+<div class="welcome-block col-lg-12">
+<p></p>
+</div>
 
 <% --[[
 	io.write(htmlviewfunctions.cfe_unpack(view))

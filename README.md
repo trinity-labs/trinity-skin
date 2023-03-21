@@ -181,7 +181,7 @@ skin=/skins/trinity
 
 ```diff
 + Create TRIИITY Wiki to handle Alpine Linux system and common hardware (TRIИITY Personal Mainframe - Work in progress)
-+ Deal with ShellInABox CGI Scripts or easiest method to get a shell (Work in progress - Help Appreciate)
++ Deal with ShellInABox CGI Scripts or ttyd or easiest method to get a shell (Work in progress - Help Appreciate)
 + Mobile Design (Done - Minor Bugs)
 ```
 <br>
