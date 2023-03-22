@@ -159,23 +159,22 @@ skin=/skins/trinity
 **` TRIИITY Skin - System `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/226128994-bec1f16d-dc41-4bd0-b7f7-09cfcb029955.png" width="80%" >
-</p>
-<br>
-
-**` TRIИITY Skin - Applications `**
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/226138946-704dfa2e-1eea-4115-ba67-67a01fc3b56b.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/226993185-8f60d2f1-e13f-460c-8c75-d7e08a83cf78.png" width="80%" >
 </p>
 <br>
 
 **` TRIИITY Skin - Networking `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/226140190-a911cf6f-a957-40ed-b84f-bf957e5315c8.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/226993524-92beb4f9-ef1e-4d1b-ab9e-ddf783257f7c.png" width="80%" >
 </p>
 
+**` TRIИITY Skin - Applications `**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45216746/226993644-95699ba3-3c9d-4ee7-80a3-cc03ac353a8d.png" width="80%" >
+</p>
+<br>
 
 <h2>Todo List</h2>
 
