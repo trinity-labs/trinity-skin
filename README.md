@@ -159,20 +159,20 @@ skin=/skins/trinity
 **` TRIИITY Skin - System `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/226993185-8f60d2f1-e13f-460c-8c75-d7e08a83cf78.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/226996976-62ddc907-dce3-4456-8db7-7774af9c6d48.png" width="80%" >
 </p>
 <br>
 
 **` TRIИITY Skin - Networking `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/226993524-92beb4f9-ef1e-4d1b-ab9e-ddf783257f7c.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/226997194-33bc7001-0c44-44b6-b368-cde89b6c7fd4.png" width="80%" >
 </p>
 
 **` TRIИITY Skin - Applications `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/226993644-95699ba3-3c9d-4ee7-80a3-cc03ac353a8d.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/226997512-bdce4cba-7172-4f1a-97b0-054f9899e521.png" width="80%" >
 </p>
 <br>
 
