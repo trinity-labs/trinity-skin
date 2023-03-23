@@ -51,8 +51,6 @@ end
 				$(":input:not(input[type=button],input[type=submit],button):enabled:not([readonly]):visible:first").focus();
 			});
 		</script>
-		<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/xterm@4.5.0/lib/xterm.js"></script> 
-		<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/xterm-addon-fit@0.3.0/lib/xterm-addon-fit.js"></script> 
 
 <% end -- pageinfo.skinned %>
 
