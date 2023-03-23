@@ -1,0 +1,12 @@
+/*----------------------------------------------------------------------------------
+ * PAGE > WELCOME
+ *----------------------------------------------------------------------------------
+ */
+
+.welcome.welcome-read #subnav {
+    display: none !important;
+}
+
+.welcome.welcome-read #section-alpine-configuration-framework h1 {
+    margin-top: 1.75rem !important;
+}
