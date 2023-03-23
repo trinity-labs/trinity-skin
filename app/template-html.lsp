@@ -34,7 +34,7 @@ end
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 <% if pageinfo.skinned ~= "false" then %>
 		<title><%= html.html_escape(hostname .. " - " .. pageinfo.controller .. "/" .. pageinfo.action) %></title>
-
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm@4.5.0/css/xterm.css" />
 		<link rel="stylesheet" type="text/css" href="<%= html.html_escape(pageinfo.wwwprefix..pageinfo.staticdir) %>/reset.css">
 		<link rel="stylesheet" type="text/css" href="<%= html.html_escape(pageinfo.wwwprefix..pageinfo.skin.."/"..posix.basename(pageinfo.skin)..".css") %>">
 		<!--[if IE]>
@@ -50,7 +50,9 @@ end
 			$(function(){
 				$(":input:not(input[type=button],input[type=submit],button):enabled:not([readonly]):visible:first").focus();
 			});
-		</script> 
+		</script>
+		<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/xterm@4.5.0/lib/xterm.js"></script> 
+		<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/xterm-addon-fit@0.3.0/lib/xterm-addon-fit.js"></script> 
 
 <% end -- pageinfo.skinned %>
 
