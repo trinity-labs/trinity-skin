@@ -1,39 +1,36 @@
 /* .css - Alpine ACF */
 
 /*----------------------------------------------------------------------------------
- * FONTAWESOME 6 FREE CLOUDFLARE CDN
+ * INCLUDES
  *--------------------------------------------------------------------------------*/
 
+/*----------------------------------------------------------------------------------
+ * FONTAWESOME 6 FREE CLOUDFLARE CDN
+ *--------------------------------------------------------------------------------*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
 
 /*----------------------------------------------------------------------------------
  * JQUERY TABLESORTER
  *--------------------------------------------------------------------------------*/
-
 @import "../static/tablesorter/theme.ice.css";
 
 /*----------------------------------------------------------------------------------
- * INCLUDES
+ * TRINITY MAIN DESIGN
  *--------------------------------------------------------------------------------*/
-
-
-/*----------------------------------------------------------------------------------
- * MAIN
- *--------------------------------------------------------------------------------*/
-@import "css/main/content.css";
-@import "css/main/footer.css";
-@import "css/main/header.css";
-@import "css/main/icons.css";
-@import "css/main/logon.css";
-@import "css/main/mobile.css";
-@import "css/main/nav.css";
-@import "css/main/page.css";
-@import "css/main/tags.css";
+@import "css/trinty-main/content.css";
+@import "css/trinty-main/footer.css";
+@import "css/trinty-main/header.css";
+@import "css/trinty-main/icons.css";
+@import "css/trinty-main/logon.css";
+@import "css/trinty-main/mobile.css";
+@import "css/trinty-main/nav.css";
+@import "css/trinty-main/page.css";
+@import "css/trinty-main/tags.css";
 
 /*----------------------------------------------------------------------------------
- * PAGES
+ * TRINITY PAGES DESIGN
  *--------------------------------------------------------------------------------*/
-@import "css/pages/health.css";
-@import "css/pages/welcome.css";
+@import "css/trinty-pages/health.css";
+@import "css/trinty-pages/welcome.css";
 
 /*--------------------------------------------------------------------------------*/
