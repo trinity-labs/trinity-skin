@@ -146,6 +146,10 @@ skin=/skins/trinity
   $: cd /usr/share/acf/www/skins && wget https://github.com/trinity-labs/trinity-skin/archive/refs/heads/main.zip -O trinity-labs-trinity-skin.zip && unzip ./trinity-labs-trinity-skin.zip -d trinity && rm -rvf ./trinity-labs-trinity-skin.zip && mv -f trinity/trinity-skin-main/* trinity && rm -rvf trinity/trinity-skin-main
   ```
   
+ <h2>Tips</h2>
+ 
+ Move `favicon.ico` to `/usr/share/acf/www` root folder
+<br>
 
 <h2>Screenshots</h2>
 
@@ -183,6 +187,14 @@ skin=/skins/trinity
 + Try to get a Shell in an elegant way with Lua (Work in progress - Help Appreciate)
 + Mobile Design (Done - Minor Bugs)
 ```
+<br>
+
+
+<h2>Credits</h2>
+
+Alpine Linux - https://alpinelinux.org/about/
+<br>
+Alpine ACF &nbsp; - https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design
 <br>
 
 <p align="center">
