@@ -17,7 +17,6 @@
 	
 #header a {
     text-decoration: none;
-    text-transform: capitalize;
     color: white;
 }
 
@@ -65,7 +64,9 @@
 
 #user-logon {
     font-weight: bold;
-    color: #ccff00;
+    color: #fbff00;
+    text-transform: capitalize;
+    text-decoration: underline;
 }
 
 /*----------------------------------------------------------------------------------

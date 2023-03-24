@@ -15,10 +15,6 @@
     width: 100% !important;
 	}
 	
-	.logon-logon #content {
-    /*width: 100vw;*/
-}
-	
 	#page-logon {
     background: rgb(0 0 0 / 50%);
     border-radius: 4px !important;
@@ -79,7 +75,7 @@
     background-size: 8rem;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-image: url(../img/logo-trinity-full-white.png);
+    background-image: url(../../img/logo-trinity-full-white.png);
     background-position: 2rem center !important;
     background-repeat: no-repeat;
     justify-content: flex-end;
@@ -99,7 +95,8 @@
     top: 0.75rem;
 	}
 	
-	#content table td:first-child, #content table td:last-child {
+	#content .chart-memory td:first-child,
+	#content .chart-memory td:last-child {
     display: none;
 	}
 	

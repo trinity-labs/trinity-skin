@@ -97,7 +97,7 @@ end
 					local ctlr = pageinfo.script .. "/acf-util/logon/"
 
 					if session.userinfo and session.userinfo.userid then
-						print("<a id='logoff' href=\""..html.html_escape(ctlr).."logoff\">Log Off as <span id='user-logon'> " .. html.html_escape(session.userinfo.userid) .. " </span></a> |")
+						print("<a id='logoff' href=\""..html.html_escape(ctlr).."logoff\">Log Off as <span id='user-logon'>" .. html.html_escape(session.userinfo.userid) .. "</span></a> |")
 						print("<a id='home-link' href="..html.html_escape(pageinfo.wwwprefix).."/"..">Home</a> |")
 					else
 						print("<a id='logon' href=\""..html.html_escape(ctlr).."logon\">Log On</a> |" )
