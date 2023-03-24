@@ -49,7 +49,7 @@ Alpine is quite secure :
 
 <h4 align="center">TRIИITY Skin - Alpine ACF</h4>
 
-<h2>Setup</h2>
+<h2>⚙️ Setup</h2>
 
 <ins>**Requirement**</ins> **:**
 
@@ -71,7 +71,7 @@ It's an Alpine native & build-in `script` to setup entire system, this include :
 
 **!** <ins>**Important**</ins> **: We need networking for acces to ACF from local network**
 
-<h2>Install</h2>
+<h2>🧪 Install</h2>
 
 `Alpine Configuration Framework` - [ACF](https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design) had it's own MVC app design from CGI Scripts
 
@@ -146,12 +146,12 @@ skin=/skins/trinity
   $: cd /usr/share/acf/www/skins && wget https://github.com/trinity-labs/trinity-skin/archive/refs/heads/main.zip -O trinity-labs-trinity-skin.zip && unzip ./trinity-labs-trinity-skin.zip -d trinity && rm -rvf ./trinity-labs-trinity-skin.zip && mv -f trinity/trinity-skin-main/* trinity && rm -rvf trinity/trinity-skin-main
   ```
   
- <h2>Tips</h2>
+ <h2>📍 Tips</h2>
  
  Move `favicon.ico` to `/usr/share/acf/www` root folder
 <br>
 
-<h2>Screenshots</h2>
+<h2>📸 Screenshots</h2>
 
 **` TRIИITY Skin - Logon `**
 
@@ -180,7 +180,7 @@ skin=/skins/trinity
 </p>
 <br>
 
-<h2>Todo List</h2>
+<h2>📆 Todo List</h2>
 
 ```diff
 + Create TRIИITY Wiki to handle Alpine Linux system and common hardware (TRIИITY Personal Mainframe - Work in progress)
@@ -190,7 +190,7 @@ skin=/skins/trinity
 <br>
 
 
-<h2>Credits</h2>
+<h2>🙏 Credits</h2>
 
 Alpine Linux - https://alpinelinux.org/about/
 <br>
