@@ -97,13 +97,16 @@ end
 					local ctlr = pageinfo.script .. "/acf-util/logon/"
 
 					if session.userinfo and session.userinfo.userid then
-						print("<a id='logoff' href=\""..html.html_escape(ctlr).."logoff\">Log off as '" .. html.html_escape(session.userinfo.userid) .. "'</a> |")
+						print("<a id='logoff' href=\""..html.html_escape(ctlr).."logoff\">Log Off as <span id='user-logon'> " .. html.html_escape(session.userinfo.userid) .. " </span></a> |")
+						print("<a id='home-link' href="..html.html_escape(pageinfo.wwwprefix).."/"..">Home</a> |")
 					else
-						print("<a id='logon' href=\""..html.html_escape(ctlr).."logon\">Log on</a> |" )
+						print("<a id='logon' href=\""..html.html_escape(ctlr).."logon\">Log On</a> |" )
 					end
 				%>
-					<a href="<%= html.html_escape(pageinfo.wwwprefix) %>/">home</a> |
-					<a href="https://trinity.openet.online">about</a>
+				<!--ADD HEADER LINK CLASS - 20230324-->
+					 
+					<a id="about-link" href="https://github.com/trinity-labs/trinity-skin" target="_blank">About</a>
+					
 				</p>
 			</div>	<!-- header -->
 

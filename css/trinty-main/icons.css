@@ -9,7 +9,7 @@
  */
  
  
-#section-alpine-configuration-framework h1:before {
+#section-triИity-mainframe-center h1:before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F015' !important;
@@ -104,6 +104,16 @@
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F1C9' !important;
+    margin: 0 1rem 0 0.5rem;
+    color: rgb(0 0 0 / 32%);
+    position: relative;
+    font-size: 1.25rem;
+}
+
+.openssh #content h1:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F084' !important;
     margin: 0 1rem 0 0.5rem;
     color: rgb(0 0 0 / 32%);
     position: relative;

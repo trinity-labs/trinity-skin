@@ -1,7 +1,7 @@
 <% local view, viewlibrary, page_info, session = ... %>
 <% htmlviewfunctions = require("htmlviewfunctions") %>
 
-<% local header_level = htmlviewfunctions.displaysectionstart(cfe({label="Alpine Configuration Framework"}), page_info) %>
+<% local header_level = htmlviewfunctions.displaysectionstart(cfe({label="TRIИITY MAINFRAME CENTER"}), page_info) %>
 <div class="welcome-block col-lg-12">
 <p></p>
 </div>

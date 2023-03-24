@@ -2,6 +2,51 @@
  * PAGE > HEADER
  *----------------------------------------------------------------------------------
  */
+ 
+ /*----------------------------------------------------------------------------------
+ * DEFAULT
+ *----------------------------------------------------------------------------------
+ */
+
+#header p {
+    font-weight: 600;
+    float: right;
+    font-size: 10px;
+    color: white;
+}
+	
+#header a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+#header h1 {
+	text-indent: -999em;
+}
+
+#header p.hostname {
+	color:#000;
+	position:absolute;
+	top:55px;
+	left:34px;
+	font-size:12px;
+}
+
+#header a:first-child:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F502';
+    margin: 0 0.33rem;
+    position: relative;
+    top: -0.05rem;
+    font-size: 0.75rem;
+}
+
+#system #system-title.category-title,
+#system-title.category-title:hover {
+    background: #3d007e;
+}
 
 #header {
     height: 4rem;
@@ -16,6 +61,11 @@
     justify-content: flex-end;
     background-repeat: no-repeat;
     align-items: center;
+}
+
+#user-logon {
+    font-weight: bold;
+    color: #ccff00;
 }
 
 /*----------------------------------------------------------------------------------
@@ -75,7 +125,7 @@
  #applications #header {
     height: 4rem;
     padding: 1rem;
-    background: #890259;
+    background: #9b0064;
     display: flex;
     background-size: 8rem;
     flex-direction: row;
@@ -87,17 +137,17 @@
 }
 
 #applications #applications-title.category-title {
-    background: #890259;
+    background: #9b0064;
 }
 
 #applications-title.category-title:hover {
-    background: #890259;
+    background: #9b0064;
 }
 
 #applications #subnav ul li.selected a,
 #applications #subnav ul li a:hover {
-    background-color: #890259;
-    border: 1px solid #890259;
+    background-color: #9b0064;
+    border: 1px solid #9b0064;
     color: #FFF;
 }
 
@@ -109,51 +159,6 @@
     font-weight: bold;
     border-radius: 4px;
     padding: 0.75rem 3.5rem;
-    border: 1px solid #890259;
-    background: #890259;
-}
-
-/*----------------------------------------------------------------------------------
- * DEFAULT
- *----------------------------------------------------------------------------------
- */
-
-#header p {
-    font-weight: 600;
-    float: right;
-    font-size: 10px;
-    color: white;
-}
-	
-#header a {
-    text-decoration: none;
-    text-transform: capitalize;
-    color: white;
-}
-
-#header h1 {
-	text-indent: -999em;
-}
-
-#header p.hostname {
-	color:#000;
-	position:absolute;
-	top:55px;
-	left:34px;
-	font-size:12px;
-}
-
-#header a:first-child:before {
-    font-family: "Font Awesome 6 Free";
-    font-weight: bold;
-    content: '\F502';
-    margin: 0 0.33rem;
-    position: relative;
-    top: -0.05rem;
-    font-size: 0.75rem;
-}
-
-#system #system-title.category-title,
-#system-title.category-title:hover {
-    background: #3d007e;
+    border: 1px solid #9b0064;
+    background: #9b0064;
 }
