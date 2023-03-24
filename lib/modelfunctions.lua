@@ -258,6 +258,7 @@ end
 -- output will never be nil
 -- errtxt will be nil for success and non-nil for failure
 -- if include_err, then stderr will be prepended to stdout (if executable doesn't fail)
+
 mymodule.run_executable = function(args, include_err, input)
 	local output = ""
 	local errtxt
