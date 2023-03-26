@@ -70,7 +70,8 @@ It's an Alpine native & build-in `script` to setup entire system, this include :
 - Hostname
 
 **!** <ins>**Important**</ins> **: We need networking for acces to ACF from local network**
-
+<br>
+<br>
 <h2>🧪 Install</h2>
 
 `Alpine Configuration Framework` - [ACF](https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design) had it's own MVC app design from CGI Scripts
@@ -145,12 +146,13 @@ skin=/skins/trinity
   ```css
   $: cd /usr/share/acf/www/skins && wget https://github.com/trinity-labs/trinity-skin/archive/refs/heads/main.zip -O trinity-labs-trinity-skin.zip && unzip ./trinity-labs-trinity-skin.zip -d trinity && rm -rvf ./trinity-labs-trinity-skin.zip && mv -f trinity/trinity-skin-main/* trinity && rm -rvf trinity/trinity-skin-main
   ```
-  
+  <br>
  <h2>📍 Tips</h2>
  
  Move `favicon.ico` to `/usr/share/acf/www` root folder
 <br>
-
+<br>
+<br>
 <h2>📸 Screenshots</h2>
 
 **` TRIИITY Skin - Logon `**
@@ -196,6 +198,9 @@ Alpine Linux - https://alpinelinux.org/about/
 <br>
 Alpine ACF &nbsp; - https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design
 <br>
+<br>
+<br>
+<hr>
 
 <p align="center">
 Enjoy, Love an Hack It 💜 - Regards from &nbsp;<img src="https://user-images.githubusercontent.com/45216746/226208297-32a0371b-83db-4a0e-ae33-70e74ca2b2e5.png" width="1.75%" >
