@@ -7,7 +7,7 @@
 /*----------------------------------------------------------------------------------
  * FONTAWESOME 6 FREE CLOUDFLARE CDN
  *--------------------------------------------------------------------------------*/
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
 
 /*----------------------------------------------------------------------------------
  * JQUERY TABLESORTER
@@ -30,8 +30,8 @@
 /*----------------------------------------------------------------------------------
  * TRINITY PAGES DESIGN
  *--------------------------------------------------------------------------------*/
- @import "css/trinty-pages/interfaces.css";
 @import "css/trinty-pages/health.css";
+@import "css/trinty-pages/interfaces.css";
 @import "css/trinty-pages/welcome.css";
 
 /*--------------------------------------------------------------------------------*/
