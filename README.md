@@ -165,7 +165,7 @@ skin=/skins/trinity
 **` TRIИITY Skin - System `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/227789730-b7909dac-5251-4426-896c-8b27976e9245.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/227789994-72af4fd0-8747-4275-9eb5-85f0d2032e9c.png" width="80%" >
 </p>
 <br>
 
