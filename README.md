@@ -83,7 +83,9 @@ It's an Alpine native & build-in `script` to setup entire system, this include :
 
 All files and folders are store on local system in ` /usr/share/acf/www/skins/trinity `
 
-<ins>**Get ACF First**</ins> :
+<br>
+
+**1 -** <ins>**Get ACF First**</ins> :
   
   ```css
   $: setup-acf
@@ -110,8 +112,9 @@ skindir=/skins/,/userskins/
 skin=/skins/trinity
 ...
   ```
+  <br>
   
-  <ins>**Get TRIИITY skin**</ins> :
+  **2 -** <ins>**Get TRIИITY skin**</ins> :
   
   <h3>Web GUI Method</h3>
   
