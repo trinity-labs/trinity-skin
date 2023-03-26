@@ -2,6 +2,11 @@
  * PAGE > WELCOME
  *----------------------------------------------------------------------------------
  */
+ 
+.welcome #home-link {
+    font-weight: 900;
+    text-decoration: underline !important;
+}
 
 .welcome.welcome-read #subnav {
     display: none !important;

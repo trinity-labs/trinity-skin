@@ -63,11 +63,22 @@
     align-items: center;
 }
 
+#logoff {
+    font-weight: 900;
+}
+
 #user-logon {
-    font-weight: bold;
+    font-weight: 900;
     color: #c0ff00;
     text-transform: capitalize;
     text-decoration: underline;
+}
+
+#logoff:hover,
+#home-link:hover,
+#about-link:hover {
+    font-weight: 900;
+    text-decoration: underline !important;
 }
 
 /*----------------------------------------------------------------------------------

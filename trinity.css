@@ -30,6 +30,7 @@
 /*----------------------------------------------------------------------------------
  * TRINITY PAGES DESIGN
  *--------------------------------------------------------------------------------*/
+ @import "css/trinty-pages/interfaces.css";
 @import "css/trinty-pages/health.css";
 @import "css/trinty-pages/welcome.css";
 

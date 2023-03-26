@@ -9,7 +9,7 @@
  */
  
  
-#section-triИity-pocket-mainframe h1:before {
+#section-triИity-pocket-mainframe h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F197' !important;
@@ -22,7 +22,7 @@
     top: -0.15rem;
 }
 
-.category-title:before {
+.category-title::before {
     color: rgb(0 0 0 / 25%);
 }
 
@@ -35,7 +35,7 @@
  *----------------------------------------------------------------------------------
  */
  
-#networking-title.category-title:before {
+#networking-title.category-title::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F0E8';
@@ -44,11 +44,11 @@
     font-size: 0.85rem;
 }
 
-#networking #networking-title.category-title:before {
+#networking #networking-title.category-title::before {
     color: white !important;
 }
 
-#networking #content h1:before {
+#networking #content h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F0E8';
@@ -58,7 +58,7 @@
     font-size: 1.25rem;
 }
 
-#section-restart-networking h1:before {
+#section-restart-networking h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F2F1' !important;
@@ -68,7 +68,7 @@
     font-size: 1.25rem;
 }
 
-#section-network h1:before {
+#section-network h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F0E8' !important;
@@ -78,7 +78,7 @@
     font-size: 1.25rem;
 }
 
-#section-network-statistics h1:before {
+#section-network-statistics h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F0EC' !important;
@@ -88,10 +88,10 @@
     font-size: 1.25rem;
 }
 
-.interface-name:before {
+.interface-name::before {
 	font-family: "Font Awesome 6 Free";
     font-weight: bold;
-    content: '\F796' !important;
+    content: '\F6FF' !important;
     margin: 0 1rem 0 0.5rem;
     color: rgb(0 0 0 / 32%);
     position: relative;
@@ -103,7 +103,7 @@
  *----------------------------------------------------------------------------------
  */
  
-#applications-title.category-title:before {
+#applications-title.category-title::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F1B3';
@@ -112,11 +112,11 @@
     font-size: 0.85rem;
 }
 
-#applications #applications-title.category-title:before {
+#applications #applications-title.category-title::before {
     color: white !important;
 }
  
- #applications #content h1:before {
+ #applications #content h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F1B3';
@@ -126,7 +126,7 @@
     font-size: 1.25rem;
 }
 
-.openssl #content h1:before {
+.openssl #content h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F023' !important;
@@ -136,8 +136,8 @@
     font-size: 1.25rem;
 }
 
-.openssl-readall #content h1:before,
-.openssl-read #content h1:before {
+.openssl-readall #content h1::before,
+.openssl-read #content h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F1C9' !important;
@@ -147,7 +147,7 @@
     font-size: 1.25rem;
 }
 
-.openssh #content h1:before {
+.openssh #content h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F084' !important;
@@ -162,7 +162,7 @@
  *----------------------------------------------------------------------------------
  */
  
-#system-title.category-title:before {
+#system-title.category-title::before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: '\E163';
@@ -171,11 +171,11 @@
     font-size: 0.85rem;
 }
 
-#system #system-title.category-title:before {
+#system #system-title.category-title::before {
     color: white !important;
 }
 
-#system #content h1:before {
+#system #content h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\E163';
@@ -185,7 +185,7 @@
     font-size: 1.25rem;
 }
 
-#section-hardware-information h1:before {
+#section-hardware-information h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F2DB' !important;
@@ -195,7 +195,7 @@
     font-size: 1.25rem;
 }
 
-#section-storage h1:before {
+#section-storage h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F0A0' !important;
@@ -205,7 +205,7 @@
     font-size: 1.25rem;
 }
 
-#section-storage #legend-object b:before {
+#section-storage #legend-object b::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F0A0' !important;
@@ -215,7 +215,7 @@
     font-size: 0.75rem;
 }
 
-.apk #content h1:before {
+.apk #content h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F1B3' !important;
