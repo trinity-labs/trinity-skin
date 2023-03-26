@@ -192,7 +192,7 @@ skin=/skins/trinity
 <br>
 
 
-<h2>🙏 Credits</h2>
+<h2>🤝 Credits</h2>
 
 Alpine Linux - https://alpinelinux.org/about/
 <br>
