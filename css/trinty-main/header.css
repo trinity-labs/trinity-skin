@@ -45,6 +45,7 @@
 #system #system-title.category-title,
 #system-title.category-title:hover {
     background: #3d007e;
+	color: white !important;
 }
 
 #header {
@@ -64,7 +65,7 @@
 
 #user-logon {
     font-weight: bold;
-    color: #fbff00;
+    color: #c0ff00;
     text-transform: capitalize;
     text-decoration: underline;
 }

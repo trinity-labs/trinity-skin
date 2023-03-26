@@ -3,6 +3,8 @@
 
 <% local header_level = htmlviewfunctions.displaysectionstart(cfe({label="TRIИITY MAINFRAME CENTER"}), page_info) %>
 <div class="welcome-block col-lg-12">
+<div class="temp-block col-lg-6">
+</div>
 <p></p>
 </div>
 
