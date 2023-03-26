@@ -19,7 +19,7 @@
 
 It's a modern skin for Linux `Alpine Configuration Framework` commonly called [ACF](https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design)
 
-A French Project where **`И`** of `TRIИITY` means : **Nginx prefered solution as default front server for our personal mainframe**
+A French Project where **`И`** of `TRIИITY` means : **Nginx prefered solution as default front server for our pocket mainframe**
 
 [Alpine](https://alpinelinux.org/about/) Linux became popular since `Docker` image size and efficiency are essestial.  
 Minimalist & Secure Linux Distro, `Alpine` is perfect for low powered and/or low performances systems. 
@@ -185,7 +185,7 @@ skin=/skins/trinity
 <h2>📆 Todo List</h2>
 
 ```diff
-+ Create TRIИITY Wiki to handle Alpine Linux system and common hardware (TRIИITY Personal Mainframe - Work in progress)
++ Create TRIИITY Wiki to handle Alpine Linux system and common hardware (TRIИITY Pocket Mainframe - Work in progress)
 + Try to get a Shell in an elegant way with Lua (Work in progress - Help Appreciate)
 + Mobile Design (Done - Minor Bugs)
 ```
