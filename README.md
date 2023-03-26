@@ -147,7 +147,7 @@ skin=/skins/trinity
   $: cd /usr/share/acf/www/skins && wget https://github.com/trinity-labs/trinity-skin/archive/refs/heads/main.zip -O trinity-labs-trinity-skin.zip && unzip ./trinity-labs-trinity-skin.zip -d trinity && rm -rvf ./trinity-labs-trinity-skin.zip && mv -f trinity/trinity-skin-main/* trinity && rm -rvf trinity/trinity-skin-main
   ```
   <br>
- <h2>📍 Tips</h2>
+ <h2>💊 Tips</h2>
  
  Move `favicon.ico` to `/usr/share/acf/www` root folder
 <br>
