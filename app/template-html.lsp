@@ -34,7 +34,7 @@ end
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 <% if pageinfo.skinned ~= "false" then %>
 		<title><%= html.html_escape(hostname .. " - " .. pageinfo.controller .. "/" .. pageinfo.action) %></title>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm@4.5.0/css/xterm.css" />
+		<link rel="icon" href="/skins/trinity/favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="<%= html.html_escape(pageinfo.wwwprefix..pageinfo.staticdir) %>/reset.css">
 		<link rel="stylesheet" type="text/css" href="<%= html.html_escape(pageinfo.wwwprefix..pageinfo.skin.."/"..posix.basename(pageinfo.skin)..".css") %>">
 		<!--[if IE]>
