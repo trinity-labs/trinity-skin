@@ -9,16 +9,18 @@
  */
  
  
-#section-triИity-mainframe-center h1:before {
+#section-triИity-pocket-mainframe h1:before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
-    content: '\F015' !important;
-    margin: 0 1rem 0 0.5rem;
+    content: '\F197' !important;
+    margin: 0 0.5rem 0 0.5rem;
+    display: inline-block;
     color: rgb(0 0 0 / 32%);
+    transform: rotate(-90deg) !important;
     position: relative;
     font-size: 1.25rem;
+    top: -0.15rem;
 }
-
 
 .category-title:before {
     color: rgb(0 0 0 / 25%);
