@@ -152,7 +152,7 @@ skin=/skins/trinity
   <br>
  <h2>💊 Tips</h2>
  
-  ~~Move favicon.ico to /usr/share/acf/www root folder~~ : **Unnecessary since we had inclued all folder structure off natice app**
+  ~~Move **favicon.ico** to **/usr/share/acf/www root folder**~~ : **Unnecessary since we had inclued all folder structure off native app**
 <br>
 <br>
 <br>
