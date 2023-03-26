@@ -194,9 +194,9 @@ skin=/skins/trinity
 
 <h2>🤝 Credits</h2>
 
-Alpine Linux - https://alpinelinux.org/about/
+**Alpine Linux** - https://alpinelinux.org/about/
 <br>
-Alpine ACF &nbsp; - https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design
+**Alpine ACF** &nbsp; - https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design
 <br>
 <br>
 <br>
