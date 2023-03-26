@@ -97,7 +97,7 @@ All files and folders are store on local system in ` /usr/share/acf/www/skins/tr
  ...
 appdir=/usr/share/acf/www/skins/trinity/app/,/usr/share/acf/app/
 libdir=/usr/share/acf/www/skins/trinity/lib/,/usr/share/acf/lib/
-wwwdir=/usr/share/acf/www/
+wwwdir=/usr/share/acf/www/skins/trinity/www/,/usr/share/acf/www/
 staticdir=/skins/static/
 skindir=/skins/,/userskins/
 ...
