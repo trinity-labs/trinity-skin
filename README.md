@@ -199,8 +199,9 @@ skin=/skins/trinity
 
 **Alpine Linux** - https://alpinelinux.org/about/
 <br>
-**Alpine ACF** &nbsp; - https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design
+**Alpine ACF** - https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design
 <br>
+**Fontawesome** - https://fontawesome.com/ - Free features
 <br>
 <br>
 <hr>
