@@ -9,7 +9,7 @@
  */
  
  
-#section-triИity-pocket-mainframe h1::before {
+#section-pocket-mainframe h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\E518' !important;

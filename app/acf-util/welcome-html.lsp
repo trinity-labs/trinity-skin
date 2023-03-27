@@ -1,7 +1,7 @@
 <% local view, viewlibrary, page_info, session = ... %>
 <% htmlviewfunctions = require("htmlviewfunctions") %>
 
-<% local header_level = htmlviewfunctions.displaysectionstart(cfe({label="TRIИITY POCKET MAINFRAME"}), page_info) %>
+<% local header_level = htmlviewfunctions.displaysectionstart(cfe({label="POCKET MAINFRAME"}), page_info) %>
 <div class="welcome-block col-lg-12">
 <div class="temp-block col-lg-6">
 </div>
