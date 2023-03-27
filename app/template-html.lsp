@@ -33,7 +33,7 @@ end
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 <% if pageinfo.skinned ~= "false" then %>
-<!-- FORMAT TITLE - 20230327 -->
+<!-- FORMAT PAGE TITLE - 20230327 -->
 		<title><%= html.html_escape(string.upper(hostname) .. " - " .. string.gsub(pageinfo.controller, "^%l", string.upper) .. " ∣ " .. string.gsub(pageinfo.action, "^%l", string.upper)) %></title>
 		<link rel="icon" href="/skins/trinity/favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="<%= html.html_escape(pageinfo.wwwprefix..pageinfo.staticdir) %>/reset.css">
