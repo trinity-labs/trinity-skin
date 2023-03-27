@@ -30,6 +30,11 @@
     border: 1px solid;
     text-transform: capitalize;
     border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 
 #content h1:first-child {
