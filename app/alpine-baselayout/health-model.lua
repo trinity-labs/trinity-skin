@@ -125,6 +125,14 @@ mymodule.get_proc = function (self)
 	return cfe({ type="group", value=proc, label="Hardware Information" })
 end
 
+mymodule.get_proc = function (self)
+	local temp = {}
+	proc.processor = cfe({ value=fs.read_file("/proc/cpuinfo") or "", label="Processor" })
+	proc.memory = cfe({ value=fs.read_file("/proc/meminfo") or "", label="Memory" })
+	proc.model = cfe({ value=querycmd("sed -n 5p /proc/cpuinfo") or "", label="CPU Model" })
+	return cfe({ type="group", value=proc, label="Hardware Information" })
+end
+
 mymodule.get_networkstats = function ()
 	local stats = cfe({ type="structure", value={}, label="Network Statistics", timestamp=os.time() })
 	local result = fs.read_file("/proc/net/dev") or ""

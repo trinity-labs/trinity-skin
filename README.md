@@ -34,20 +34,9 @@ Alpine is quite secure :
 
 <br>
 
-```diff
-! !!! WARNING !!! - Project in constant dev and with lots of things to verify, custom and modify ! 
-```
-
-```diff
-@@ Please, report us any bugs and feel free to collaborate - Thanks a lot ! @@ 
- ```
- 
- ```diff
-+ Commited, Maintained and Constantly Update 
-```
+⚠️ **!! WARNING !! - Project in constant `dev` and with lots of things to verify, custom and modify !** 
 <br>
 
-<h4 align="center">TRIИITY Skin - Alpine ACF</h4>
 
 <h2>⚙️ Setup</h2>
 
@@ -207,5 +196,5 @@ skin=/skins/trinity
 <hr>
 
 <p align="center">
-Enjoy, Love an Hack It 💜 - Regards from &nbsp;<img src="https://user-images.githubusercontent.com/45216746/226208297-32a0371b-83db-4a0e-ae33-70e74ca2b2e5.png" width="1.75%" >
+Enjoy, Love an Hack It 💜 From &nbsp;<img src="https://user-images.githubusercontent.com/45216746/226208297-32a0371b-83db-4a0e-ae33-70e74ca2b2e5.png" width="1.75%" >
 </p>

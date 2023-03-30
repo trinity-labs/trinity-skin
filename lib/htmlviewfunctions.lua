@@ -33,9 +33,9 @@ end
 
 function mymodule.displaysectionstart(myitem, page_info, header_level)
 --[[
-		FIX myitem CSS ID BY ADD CSS CLASS VARIABLE - 20230902
+		FIX myitem CSS section ID BY ADD CSS CLASS VARIABLE - 20230902
 --]]
-	myitem.css_name = string.gsub(string.lower(myitem.label), "%s+", "-") -- ADD GSUB AND "-" FOR HTML ID --
+	myitem.section = string.gsub(string.lower(myitem.label), "%s+", "-") -- ADD GSUB AND "-" FOR HTML ID --
 --[[
 		FIX myitem CSS ID BY ADD NAME TO EACH BLOCK OF CATEGORY PAGE BLOCK - 20230902
 --]]
@@ -45,7 +45,7 @@ function mymodule.displaysectionstart(myitem, page_info, header_level)
 --[[
 		FIX myitem CSS ID BY ADD NAME TO EACH BLOCK OF CATEGORY PAGE BLOCK - 20230902
 --]]
-		print('<div class="section-'..tostring(header_level)..'" id="section-'..html.html_escape(myitem.css_name)..'">') -- (myitem.css_name) --
+		print('<div class="section-'..tostring(header_level)..'" id="section-'..html.html_escape(myitem.section)..'">') -- (myitem.section) --
 --[[
 		FIX myitem CSS ID BY ADD NAME TO EACH TITLE OF CATEGORY PAGE BLOCK - 20230902
 --]]
@@ -79,11 +79,11 @@ function mymodule.displayitemstart(myitem, page_info, header_level)
 	page_info = page_info or {}
 	header_level = header_level or page_info.header_level or 1
 	if 0 <= header_level then
-		io.write('<div class="item')
+		io.write('<div class="item"')
 		if myitem.errtxt then
 			io.write(' error')
 		end
-		io.write('"><label class="left')
+		io.write(' id="'..html.html_escape(myitem.name)..'"><label class="left')
 		if myitem.id then
 			io.write('" for="'..myitem.id)
 		end
