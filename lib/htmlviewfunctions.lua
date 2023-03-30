@@ -342,7 +342,7 @@ function mymodule.displayformend(myform, header_level)
 			io.write('value="' .. html.html_escape(v) .. '">\n')
 		end
 	else
-		io.write('<input class="submit '..html.html_escape(myform.class)..'" type="submit" ')
+		io.write('<input id="' .. html.html_escape(string.lower(myform.submit or myform.option)) .. '" class="submit '..html.html_escape(myform.class)..'" type="submit" ')
 		if "form" == myform.type then
 			io.write('name="submit" ')
 		end

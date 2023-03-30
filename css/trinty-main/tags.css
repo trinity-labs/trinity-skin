@@ -34,6 +34,22 @@ input.checkbox {
 	border: none;
 }
 
+input#delete {
+    background: #ff6363 !important;
+    border-color: #ff6363 !important;
+}
+
+input#upgrade {
+    background: #f9be1c !important;
+    border-color: #f9be1c !important;
+}
+
+input#view {
+    background: #6fc942 !important;
+    border-color: #6fc942 !important;
+}
+
+
 hr {
 	background-color:white;
 	height:3px;
@@ -135,4 +151,26 @@ input.submit {
     color: #ff0092;
     text-decoration: underline;
     top: -0.35rem;
+}
+
+.tablesorter-ice th, .tablesorter-ice td {
+    border: #fff 3px solid !important;
+}
+
+.tablesorter-ice th, .tablesorter-ice thead td {
+    font: 12px/18px Arial, Sans-serif;
+    color: #818181;
+    background-color: #f6f8f9;
+    padding: 0.75rem !important;
+    border-radius: 4px !important;
+    padding: 4px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.tablesorter-ice .header, .tablesorter-ice .tablesorter-header {
+    background-color: #f6f8f9;
+    background-image: none !important;
+    padding: 4px 20px 4px 4px;
+    white-space: normal;
+    cursor: pointer;
 }
