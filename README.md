@@ -149,7 +149,7 @@ skin=/skins/trinity
 **` TRIИITY Skin - Logon `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/228053382-5cd68e3b-e27f-4d0e-8b48-33060ce029d6.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/228971046-cf399935-ad9c-46b4-9150-7c8f58326570.png" width="80%" >
 </p>
 <br>
 
