@@ -141,7 +141,7 @@ skin=/skins/trinity
   <br>
  <h2>💊 Tips</h2>
  
-  ~~Move **favicon.ico** to **/usr/share/acf/www root folder**~~ : **Unnecessary since we had inclued all folder structure off native app**
+  ~~Move **favicon.ico** to **/usr/share/acf/www root folder**~~ : **Unnecessary since we had inclued all folder structure off the native ACF app**
 <br>
 <br>
 <br>
@@ -178,7 +178,8 @@ skin=/skins/trinity
 
 ```diff
 + Create TRIИITY Wiki to handle Alpine Linux system and common hardware (TRIИITY Pocket Mainframe - Work in progress)
-+ Try to get a Shell in an elegant way with Lua (Work in progress - Help Appreciate)
++ Try to get a Shell in an elegant way, in Lua & Haserl  (Work in progress - Help Appreciate)
+-------------------------------------
 + Mobile Design (Done - Minor Bugs)
 ```
 <br>
