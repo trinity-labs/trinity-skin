@@ -19,10 +19,9 @@
 
 It's a modern skin for Linux `Alpine Configuration Framework` commonly called [ACF](https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design)
 
-A French Project where **`И`** of `TRIИITY` means : **Nginx prefered solution as default front server for our pocket mainframe**
+A French Project where **`И`** of `TRIИITY` means : **Nginx prefered solution as default front end server, for our pocket mainframe**
 
-[Alpine](https://alpinelinux.org/about/) Linux became popular since `Docker` image size and efficiency are essestial.  
-Minimalist & Secure Linux Distro, `Alpine` is perfect for low powered and/or low performances systems. 
+[Alpine](https://alpinelinux.org/about/) Linux became popular since `Docker` image size and efficiency are essestial. Minimalist & Secure Linux Distro, `Alpine` is perfect for low powered and/or low performances systems. 
 
 **The perfect solution for reduce waste of system ressources and downsizing energy consumption.  
 Even in a large scale architecture**  
@@ -63,7 +62,7 @@ It's an Alpine native & build-in `script` to setup entire system, this include :
 <br>
 <h2>🧪 Install</h2>
 
-`Alpine Configuration Framework` - [ACF](https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design) had it's own MVC app design from CGI Scripts
+`Alpine Configuration Framework` - [ACF](https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design) had it's own MVC app design to handle CGI Scripts
 
 - **HTML Files** are include in `Lua` language (small & fast framework mostly design for embedded device)
 - **Framework Files** are include in skin folder (so be carreful of security permission and code remaining) skin files override core template 
@@ -74,7 +73,7 @@ All files and folders are store on local system in ` /usr/share/acf/www/skins/tr
 
 <br>
 
-**1 -** <ins>**Get ACF First**</ins> :
+ **1 -** <ins>**Get ACF First**</ins> :
   
   ```css
   $: setup-acf
@@ -179,7 +178,7 @@ skin=/skins/trinity
 ```diff
 + Create TRIИITY Wiki to handle Alpine Linux system and common hardware (TRIИITY Pocket Mainframe - Work in progress)
 + Try to get a Shell in an elegant way, in Lua & Haserl  (Work in progress - Help Appreciate)
--------------------------------------
+
 + Mobile Design (Done - Minor Bugs)
 ```
 <br>
