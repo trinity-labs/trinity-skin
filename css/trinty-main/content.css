@@ -246,11 +246,6 @@ form#editconfigfile {
     flex-direction: column;
 }
 
-.page-apk form {
-    display: block;
-    margin: 0 auto 0.5rem;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    justify-content: space-around;
+#content table td:first-child {
+    text-align: center;
 }
