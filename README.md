@@ -149,27 +149,27 @@ skin=/skins/trinity
 **` TRIИITY Skin - Logon `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/230175328-86235b31-7ce7-4da8-92a6-14a9ed08d9c5.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230196172-8af5bff5-5835-42f7-aac3-bc04cc6a7174.png" width="80%" >
 </p>
 <br>
 
 **` TRIИITY Skin - System `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/230175464-ce25cd95-30ab-420a-8757-04ef405e2410.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230196368-85acf80e-9f6b-4001-b53e-f05b218a290f.png" width="80%" >
 </p>
 <br>
 
 **` TRIИITY Skin - Networking `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/230175706-a255e9f8-4860-4642-ac24-69719f19da9a.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230196586-3fb57d97-154e-4499-9147-8bf49ff527b5.png" width="80%" >
 </p>
 
 **` TRIИITY Skin - Applications `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/230175901-58fa23fc-7004-45b9-a508-a1f0a808722a.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230196951-0b5bdf08-28e4-4977-83d9-0750cb471687.png" width="80%" >
 </p>
 <br>
 
