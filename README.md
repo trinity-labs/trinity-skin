@@ -163,7 +163,7 @@ skin=/skins/trinity
 **` TRIИITY Skin - Networking `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/230196586-3fb57d97-154e-4499-9147-8bf49ff527b5.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230199782-641a7619-5c9a-43c1-a779-4d6d2d78ffaa.png" width="80%" >
 </p>
 
 **` TRIИITY Skin - Applications `**
