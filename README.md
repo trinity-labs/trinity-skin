@@ -148,29 +148,29 @@ skin=/skins/trinity
 
 **` TRIИITY Skin - Logon `**
 
-<p align="center">
+<div align="center">
 <img src="https://user-images.githubusercontent.com/45216746/230196172-8af5bff5-5835-42f7-aac3-bc04cc6a7174.png" width="80%" >
-</p>
+</div>
 <br>
 
 **` TRIИITY Skin - System `**
 
-<p align="center">
+<div align="center">
 <img src="https://user-images.githubusercontent.com/45216746/230196368-85acf80e-9f6b-4001-b53e-f05b218a290f.png" width="80%" >
-</p>
+</div>
 <br>
 
 **` TRIИITY Skin - Networking `**
 
-<p align="center">
+<div align="center">
 <img src="https://user-images.githubusercontent.com/45216746/230199782-641a7619-5c9a-43c1-a779-4d6d2d78ffaa.png" width="80%" >
-</p>
+</div>
 
 **` TRIИITY Skin - Applications `**
 
-<p align="center">
+<div align="center">
 <img src="https://user-images.githubusercontent.com/45216746/230196951-0b5bdf08-28e4-4977-83d9-0750cb471687.png" width="80%" >
-</p>
+</div>
 <br>
 
 <h2>📆 Todo List</h2>
@@ -195,6 +195,6 @@ skin=/skins/trinity
 <br>
 <hr>
 
-<p align="center">
+<div align="center">
 Enjoy, Love an Hack It 💜 From &nbsp;<img src="https://user-images.githubusercontent.com/45216746/226208297-32a0371b-83db-4a0e-ae33-70e74ca2b2e5.png" width="1.75%" >
-</p>
+</div>
