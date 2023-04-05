@@ -25,9 +25,12 @@ a:hover {
 
 input {
     border-radius: 2.5px;
-    padding: 0.25rem;
+    padding: 0.5rem !important;
     height: 1.5rem;
     border: 1px solid #cacaca;
+	background: #3d007e;
+    border-color: #3d007e;
+}
 }
 
 input.checkbox {
@@ -143,8 +146,11 @@ textarea[readonly] {
 
 input.submit {
     cursor: pointer !important;
-	height: auto;
+    width: 10rem;
     margin: 1rem auto;
+    color: white;
+    height: 2rem !important;
+	padding: 1rem 0 1.5rem 0;
 }
 
 input.submit:hover {
