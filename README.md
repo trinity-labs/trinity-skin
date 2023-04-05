@@ -1,15 +1,15 @@
-<p align="right">
+<div align="right">
 <img src="https://user-images.githubusercontent.com/45216746/226208297-32a0371b-83db-4a0e-ae33-70e74ca2b2e5.png" width="1.75%" >
-</p>
+</div>
 <br>
-<p align="center">
+<div align="center">
  <img src="https://user-images.githubusercontent.com/45216746/221048916-d990ce07-dc89-4f1c-9e76-aeea75a173a0.png">
-<p>
+</div>
 <br>
 <hr/>
 
   ![](https://img.shields.io/github/stars/trinity-labs/trinity-skin.svg)
-  [![Views](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Ftrinity-labs%2Ftrinity-skin.json%3Fcolor%3Dpurple)](https://github.com/trinity-labs/trinity-skin)
+  [![Views](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Ftrinity-labs%2Ftrinity-skin.json%3Fcolor%3Dpurple)]
   ![contributions welcome](https://img.shields.io/badge/contributions-welcome-ff69b4.svg?style=flat)
   ![](https://img.shields.io/github/issues/trinity-labs/trinity-skin.svg)
 <!--- ![](https://img.shields.io/github/tag/trinity-labs/trinity-skin.svg) 
