@@ -35,6 +35,11 @@ input.checkbox {
 }
 
 input#delete {
+    background: #a7a7a7 !important;
+    border-color: #a7a7a7 !important;
+}
+
+input#delete:hover {
     background: #ff6363 !important;
     border-color: #ff6363 !important;
 }
@@ -138,11 +143,18 @@ textarea[readonly] {
 
 input.submit {
     cursor: pointer !important;
+	height: auto;
+    margin: 1rem auto;
 }
 
-#content input.submit:hover {
-    border-color: #b5b5b5 !important;
-    background: #b5b5b5 !important;
+input.submit:hover {
+    background: #a7a7a7 !important;
+    border-color: #a7a7a7 !important;
+}
+
+#content .submit:hover {
+    border-color: #b5b5b5;
+    background: #b5b5b5;
 }
 
 #password_editme #userid {

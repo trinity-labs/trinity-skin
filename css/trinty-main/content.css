@@ -137,20 +137,6 @@
     margin: 1rem;
 }
 
-#content .submit {
-    font-size: 0.65rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #FFF;
-    font-weight: bold;
-    border-radius: 4px;
-    padding: 0.75rem 3.5rem;
-    border: 1px solid #3d007e;
-    background: #3d007e;
-	height: auto;
-    margin: 1rem auto;
-}
-
 #content p, 
 #content input.text, 
 #content select, 

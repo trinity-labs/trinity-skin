@@ -21,12 +21,12 @@
 
 .logon-logon #header {
     border-radius: 10px 10px 0 0 !important;
-    background-position: 2.5rem center;
+    background-position: 2.5rem center !important;
 	padding: 1rem 2.5rem;
 }
 
 .logon-logon #header a:first-child {
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .logon-logon #header a:first-child:before {

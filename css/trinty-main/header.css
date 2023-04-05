@@ -75,10 +75,10 @@
     text-decoration: underline;
 }
 
+#logon:hover,
 #logoff:hover,
 #home-link:hover,
 #about-link:hover {
-    font-weight: 900;
     text-decoration: underline !important;
 }
 
@@ -90,7 +90,7 @@
 #networking #header {
     height: 4rem;
     padding: 1rem;
-    background: #00808d;
+    background: #16597a;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -98,17 +98,17 @@
 }
 
 #networking #networking-title.category-title {
-    background: #00808d;
+    background: #16597a;
 }
 
 #networking-title.category-title:hover {
-    background: #00808d;
+    background: #16597a;
 }
 
 #networking #subnav ul li.selected a,
 #networking #subnav ul li a:hover {
-    background-color: #00808d;
-    border: 1px solid #00808d;
+    background-color: #16597a;
+    border: 1px solid #16597a;
     color: #FFF;
 }
 
@@ -120,8 +120,8 @@
     font-weight: bold;
     border-radius: 4px;
     padding: 0.75rem 3.5rem;
-    border: 1px solid #00808d;
-    background: #00808d;
+    border: 1px solid #16597a;
+    background: #16597a;
 	width: 15vw;
 }
 
