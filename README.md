@@ -196,5 +196,5 @@ skin=/skins/trinity
 <hr>
 
 <div align="center">
-Enjoy, Love an Hack It 💜 From &nbsp;<img src="https://user-images.githubusercontent.com/45216746/226208297-32a0371b-83db-4a0e-ae33-70e74ca2b2e5.png" width="1.75%" >
+Enjoy, Love an Hack It 💜
 </div>
