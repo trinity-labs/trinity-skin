@@ -21,7 +21,8 @@
 
 .logon-logon #header {
     border-radius: 10px 10px 0 0 !important;
-    background-position: 4.5rem center;
+    background-position: 2.5rem center;
+	padding: 1rem 2.5rem;
 }
 
 .logon-logon #header a:first-child {
@@ -69,8 +70,18 @@
     width: 33.33rem;
 }
 
-#logon label.left {
-    width: 10vh !important;
+#logon .left {
+    display: none !important;
+}
+
+input#password::-webkit-input-placeholder::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F023';
+    margin: 0 0.33rem;
+    position: relative;
+    top: -0.05rem;
+    font-size: 0.75rem;
 }
 
 .logon-logon #header a {
@@ -170,4 +181,12 @@
 
 .logon .item {
     margin-top: 3rem;
+}
+
+#page-logon #error {
+    width: 87% !important;
+}
+
+.logon-logon input[placeholder] {
+    filter: grayscale(1);
 }

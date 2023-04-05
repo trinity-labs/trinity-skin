@@ -53,13 +53,14 @@
     padding: 1rem;
     background: #3d007e;
     display: flex;
-    background-size: 8rem;
+    background-size: 10rem;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-image: url(../../img/logo-trinity-full-white.png);
+	background-image: url(../../img/logo-alpine-linux-white.png) !important;
+    /*background-image: url(../../img/logo-trinity-full-white.png);*/  /* TRIИITY Logo */
     background-position: 8.5rem center;
     justify-content: flex-end;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     align-items: center;
 }
 
@@ -91,13 +92,9 @@
     padding: 1rem;
     background: #00808d;
     display: flex;
-    background-size: 8rem;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-image: url(../../img/logo-trinity-full-white.png);
-    background-position: 8.5rem center;
     justify-content: flex-end;
-    background-repeat: no-repeat;
 }
 
 #networking #networking-title.category-title {
@@ -140,13 +137,9 @@
     padding: 1rem;
     background: #9b0064;
     display: flex;
-    background-size: 8rem;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-image: url(../../img/logo-trinity-full-white.png);
-    background-position: 8.5rem center;
     justify-content: flex-end;
-    background-repeat: no-repeat;
 }
 
 #applications #applications-title.category-title {
