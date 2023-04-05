@@ -28,9 +28,6 @@ input {
     padding: 0.5rem !important;
     height: 1.5rem;
     border: 1px solid #cacaca;
-	background: #3d007e;
-    border-color: #3d007e;
-}
 }
 
 input.checkbox {
@@ -151,6 +148,8 @@ input.submit {
     color: white;
     height: 2rem !important;
 	padding: 1rem 0 1.5rem 0;
+	background: #3d007e;
+    border-color: #3d007e;
 }
 
 input.submit:hover {
