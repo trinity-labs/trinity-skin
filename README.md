@@ -9,7 +9,7 @@
 <hr/>
 
   ![](https://img.shields.io/github/stars/trinity-labs/trinity-skin.svg)
-  [![Views](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Ftrinity-labs%2Ftrinity-skin.json%3Fcolor%3Dpurple)]
+  ![Views](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Ftrinity-labs%2Ftrinity-skin.json%3Fcolor%3Dpurple)
   ![contributions welcome](https://img.shields.io/badge/contributions-welcome-ff69b4.svg?style=flat)
   ![](https://img.shields.io/github/issues/trinity-labs/trinity-skin.svg)
 <!--- ![](https://img.shields.io/github/tag/trinity-labs/trinity-skin.svg) 
@@ -149,27 +149,27 @@ skin=/skins/trinity
 **` TRIИITY Skin - Logon `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/228971046-cf399935-ad9c-46b4-9150-7c8f58326570.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230175328-86235b31-7ce7-4da8-92a6-14a9ed08d9c5.png" width="80%" >
 </p>
 <br>
 
 **` TRIИITY Skin - System `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/228053744-3e05a826-fb39-4723-8c21-18068c87a8ba.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230175464-ce25cd95-30ab-420a-8757-04ef405e2410.png" width="80%" >
 </p>
 <br>
 
 **` TRIИITY Skin - Networking `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/228053861-f3c9d623-667e-4aab-b9fc-d639eacffe36.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230175706-a255e9f8-4860-4642-ac24-69719f19da9a.png" width="80%" >
 </p>
 
 **` TRIИITY Skin - Applications `**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45216746/228053959-46c25de7-84ad-4c4f-a6d5-eb973558c4fc.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230175901-58fa23fc-7004-45b9-a508-a1f0a808722a.png" width="80%" >
 </p>
 <br>
 

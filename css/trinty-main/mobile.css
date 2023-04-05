@@ -72,10 +72,9 @@
     padding: 1rem;
     background: #3d007e;
     display: flex;
-    background-size: 8rem;
+    background-size: 8rem !important;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-image: url(../../img/logo-trinity-full-white.png);
     background-position: 2rem center !important;
     background-repeat: no-repeat;
     justify-content: flex-end;

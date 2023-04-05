@@ -53,12 +53,12 @@
     padding: 1rem;
     background: #3d007e;
     display: flex;
-    background-size: 10rem;
+    background-size: 10rem !important;
     flex-direction: row;
     flex-wrap: nowrap;
 	background-image: url(../../img/logo-alpine-linux-white.png) !important;
     /*background-image: url(../../img/logo-trinity-full-white.png);*/  /* TRIИITY Logo */
-    background-position: 8.5rem center;
+    background-position: 8.5rem center !important;
     justify-content: flex-end;
     background-repeat: no-repeat !important;
     align-items: center;
