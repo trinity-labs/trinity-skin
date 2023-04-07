@@ -52,7 +52,9 @@ end
 				$(":input:not(input[type=button],input[type=submit],button):enabled:not([readonly]):visible:first").focus();
 			});
 		</script>
-
+		<script src="https://cdn.jsdelivr.net/npm/websocket@1.0.34/lib/browser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/xterm@5.1.0/lib/xterm.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/xterm@5.1.0/css/xterm.min.css" rel="stylesheet">
 <% end -- pageinfo.skinned %>
 
 	</head>

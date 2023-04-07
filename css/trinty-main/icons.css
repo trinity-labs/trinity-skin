@@ -9,7 +9,18 @@
  */
  
  
-#section-pocket-mainframe h1::before {
+/*#section-pocket-mainframe h1::before { ----------- TRIИITY SKIN
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\E518' !important;
+    margin: 0 0.5rem 0 0.5rem;
+    display: inline-block;
+    color: rgb(0 0 0 / 32%);
+    position: relative;
+    font-size: 1.25rem;
+}										----------- TRIИITY SKIN*/
+
+#section-alpine-configuration-framework h1::before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\E518' !important;
@@ -19,6 +30,7 @@
     position: relative;
     font-size: 1.25rem;
 }
+
 
 .category-title::before {
     color: rgb(0 0 0 / 25%);

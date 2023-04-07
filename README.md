@@ -149,14 +149,7 @@ skin=/skins/trinity
 **` TRIИITY Skin - Logon `**
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/45216746/230196172-8af5bff5-5835-42f7-aac3-bc04cc6a7174.png" width="80%" >
-</div>
-<br>
-
-**` TRIИITY Skin - System `**
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/45216746/230196368-85acf80e-9f6b-4001-b53e-f05b218a290f.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230657645-de5f8911-5016-468c-9a81-c8a98ed31610.png" width="80%" >
 </div>
 <br>
 
@@ -170,6 +163,13 @@ skin=/skins/trinity
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/45216746/230196951-0b5bdf08-28e4-4977-83d9-0750cb471687.png" width="80%" >
+</div>
+<br>
+
+**` TRIИITY Skin - System `**
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/45216746/230196368-85acf80e-9f6b-4001-b53e-f05b218a290f.png" width="80%" >
 </div>
 <br>
 

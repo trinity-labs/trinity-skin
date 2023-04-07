@@ -2,6 +2,10 @@
  * PAGE > MAIN > CONTENT
  *----------------------------------------------------------------------------------
  */
+ 
+.page-welcome #header {
+    background-color: #16597a;
+}
 
 #content {
     float: right;
@@ -38,7 +42,7 @@
 }
 
 #content h1:first-child {
-    margin-top: 0.75rem !important;
+    margin-top: 1.75rem !important;
 }
 
 #content h2 {
