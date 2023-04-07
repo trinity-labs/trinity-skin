@@ -190,13 +190,13 @@ skin=/skins/trinity
 **` TRIИITY Skin - Networking `**
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/45216746/230675475-0df8bff2-ff9b-4ec6-8be2-31c4b016dc1a.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230676455-6cc29159-2a4d-4b04-9437-edeea3185d31.png" width="80%" >
 </div>
 
 **` TRIИITY Skin - Applications `**
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/45216746/230675557-0e439c4d-86ee-41eb-af5d-2aea30eaffbe.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230676635-8db71a02-981a-4f85-b8ab-d08396288f46.png" width="80%" >
 </div>
 <br>
 
