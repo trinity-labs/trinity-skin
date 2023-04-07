@@ -71,9 +71,9 @@
     width: 33.33rem;
 }
 
-#logon .left {
+/*#logon .left {
     display: none !important;
-}
+} REMOVE ME ! ------------------- REMOVE LEFT CONTENT FOR PLACEHOLDER - GO TO readme.md for activate it in /usr/share/lua/5.4/html - Depend of your lua version acf install 20230407*/
 
 input#password::-webkit-input-placeholder::before {
     font-family: "Font Awesome 6 Free";

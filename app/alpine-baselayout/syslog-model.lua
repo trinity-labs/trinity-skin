@@ -59,7 +59,7 @@ local makeconfig = function(configcontent)
 		value = configcontent["-l"] or "8",
 		type = "select",
 		option = getloglevels(),
-		descr = "1=Quiet, ... , " .. #getloglevels() .. "=Debug", -- Make Lua =<5.4 compat 20230406 - TRIИITY
+		descr = "1=Quiet, ... , " .. #getloglevels() .. "=Debug", -- Make Lua >=5.3 compat 20230406 - TRIИITY
 		})
 	config["smallerlogs"] = cfe({
 		label = "Smaller logging output",

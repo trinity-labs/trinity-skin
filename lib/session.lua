@@ -151,7 +151,7 @@ mymodule.load_session = function ( sessionpath, session )
 			if file then
 				cached_content = file:read("*a")
 				file:close()
-				s = load(cached_content)() -- Replace 'loadstring' to 'load' for Lua 5.4 compat
+				s = load(cached_content)() -- Replace 'loadstring' to 'load' for Lua >=5.3 compat
 				break
 			end
 			sleep(10*i)

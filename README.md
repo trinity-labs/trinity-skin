@@ -12,8 +12,6 @@
   ![Views](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Ftrinity-labs%2Ftrinity-skin.json%3Fcolor%3Dpurple)
   ![contributions welcome](https://img.shields.io/badge/contributions-welcome-ff69b4.svg?style=flat)
   ![](https://img.shields.io/github/issues/trinity-labs/trinity-skin.svg)
-<!--- ![](https://img.shields.io/github/tag/trinity-labs/trinity-skin.svg) 
-![](https://img.shields.io/github/v/release/trinity-labs/trinity-skin.svg) --->
  
 <br>
 
@@ -64,10 +62,10 @@ It's an Alpine native & build-in `script` to setup entire system, this include :
 
 `Alpine Configuration Framework` - [ACF](https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design) had it's own MVC app design to handle CGI Scripts
 
-- **HTML Files** are include in `Lua` language (small & fast framework mostly design for embedded device)
-- **Framework Files** are include in skin folder (so be carreful of security permission and code remaining) skin files override core template 
+- **HTML Files** are include in `Lua` language with Haserl (small & fast framework mostly design for embedded device)
+- **Framework Files** are include in skin folder skin files override core template (so be carreful of security permission and code remaining) 
 - **Views** are served by `mini_httpd` server (fast and secure way to split `local` network server and `nginx public` reverse proxy) so completly separate all this two configs
-- **CSS Files** are store in easy way to `css` folder
+- **CSS Files** are store in easy way in `css` folder (includes located in root `trinity.css` file)
 
 All files and folders are store on local system in ` /usr/share/acf/www/skins/trinity `
 
@@ -139,9 +137,45 @@ skin=/skins/trinity
   ```
   <br>
  <h2>💊 Tips</h2>
- 
-  ~~Move **favicon.ico** to **/usr/share/acf/www root folder**~~ : **Unnecessary since we had inclued all folder structure off the native ACF app**
+
+**- 1 -**  ~~Move **favicon.ico** to **/usr/share/acf/www root folder**~~ : **Unnecessary since we had inclued all folder structure off the native ACF app**
 <br>
+
+**- 2 - Add `placeholder` to all input text and a special one for logon : add to ` /usr/share/lua/5.2 or /5.3 or /5.4/html ` line 113:**
+
+```css
+-- ADD placholder TO ALL INPUT WITHOUT SUBMIT -- 20230304 -- TRIИITY 
+	local str = string.format ( '<input class="%s %s" type="%s" placeholder="'..mymodule.html_escape(v.label)..'"', mymodule.html_escape(v.class), mymodule.html_escape(field_type), mymodule.html_escape(field_type) )
+-- ADD placholder ICON TO LOGON -- 20230304 -- TRIИITY
+		if v.name == "userid" then
+			str = string.format ( '<input class="%s" type="user" placeholder="🔒 '..mymodule.html_escape(v.label)..'" autocomplete="off"', mymodule.html_escape(v.class), mymodule.html_escape(field_type), mymodule.html_escape(field_type) )
+		elseif v.name == "password" then
+		str = string.format ( '<input class="%s" type="password" placeholder="🔑 '..mymodule.html_escape(v.label)..'" autocomplete="off"', mymodule.html_escape(v.class), mymodule.html_escape(field_type), mymodule.html_escape(field_type) )
+		end
+  ```
+  And remove CSS in ` /usr/share/acf/www/skins/trinity/css/trinity-main/logon.css ` line 74 : Remove comment for display:none
+  
+  ```css
+  /*#logon .left {
+    display: none !important;
+} REMOVE ME ! ------------------- REMOVE LEFT CONTENT FOR PLACEHOLDER - GO TO readme.md for activate it in /usr/share/lua/5.4/html - Depend of your lua version acf install 20230407*/
+  ```
+ <br>
+
+**- 3 - Compatibility of Lua 5.3 and 5.4 for Alpine Linux ACF already in TRIИITY Skin and work with 5.2 :**
+
+`lib/session.lua` line 154 :
+
+ ```css
+154:	s = load(cached_content)() -- Replace 'loadstring' to 'load' for Lua >= 5.3 compat
+ ```
+    
+`app/alpine-baselayout/syslog-model.lua` line 62 :
+
+ ```css
+62:  descr = "1=Quiet, ... , " .. #getloglevels() .. "=Debug", -- Make Lua >=5.3 compat 20230406 - TRIИITY
+ ```
+
 <br>
 <br>
 <h2>📸 Screenshots</h2>
@@ -156,20 +190,20 @@ skin=/skins/trinity
 **` TRIИITY Skin - Networking `**
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/45216746/230199782-641a7619-5c9a-43c1-a779-4d6d2d78ffaa.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230675475-0df8bff2-ff9b-4ec6-8be2-31c4b016dc1a.png" width="80%" >
 </div>
 
 **` TRIИITY Skin - Applications `**
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/45216746/230196951-0b5bdf08-28e4-4977-83d9-0750cb471687.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230675557-0e439c4d-86ee-41eb-af5d-2aea30eaffbe.png" width="80%" >
 </div>
 <br>
 
 **` TRIИITY Skin - System `**
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/45216746/230196368-85acf80e-9f6b-4001-b53e-f05b218a290f.png" width="80%" >
+<img src="https://user-images.githubusercontent.com/45216746/230675601-f625d118-fdd8-49ce-aa9b-2d1aeb2bbfdb.png" width="80%" >
 </div>
 <br>
 
@@ -190,7 +224,9 @@ skin=/skins/trinity
 <br>
 **Alpine ACF** - https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design
 <br>
-**Fontawesome** - https://fontawesome.com/ - Free features
+**Fontawesome** - https://fontawesome.com/ - Free features - Web access needed
+<br>
+**Natanael Copa** - https://github.com/ncopa
 <br>
 <br>
 <hr>
