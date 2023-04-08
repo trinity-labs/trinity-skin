@@ -62,8 +62,8 @@ It's an Alpine native & build-in `script` to setup entire system, this include :
 
 `Alpine Configuration Framework` - [ACF](https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design) had it's own MVC app design to handle CGI Scripts
 
-- **HTML Files** are include in `Lua` language with Haserl (small & fast framework mostly design for embedded device)
-- **Framework Files** are include in skin folder skin files override core template (so be carreful of security permission and code remaining) 
+- **HTML Files** are include in `Lua` language, and `Haserl` for `mini_httpd` (small & fast framework mostly design for embedded device)
+- **Framework Files** are include in skins folder. Skin files override core template (so be carreful of security permission and code remaining) 
 - **Views** are served by `mini_httpd` server (fast and secure way to split `local` network server and `nginx public` reverse proxy) so completly separate all this two configs
 - **CSS Files** are store in easy way in `css` folder (includes located in root `trinity.css` file)
 
@@ -244,5 +244,5 @@ skin=/skins/trinity
 <hr>
 
 <div align="center">
-Enjoy, Love an Hack It 💜
+Enjoy and Like It 💜
 </div>
