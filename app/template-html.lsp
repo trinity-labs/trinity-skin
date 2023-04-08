@@ -12,9 +12,10 @@ else
 end
 %>
 
+<!-- REMOVE HOSTNAME FOR GUSET - 202300408 -->
 <%
 local hostname = ""
-if pageinfo.skinned ~= "false" and viewlibrary and viewlibrary.dispatch_component then
+if session.userinfo and session.userinfo.userid and viewlibrary and viewlibrary.dispatch_component then
 	local result = viewlibrary.dispatch_component("alpine-baselayout/hostname/read", nil, true)
 	if result and result.value then
 		hostname = result.value
@@ -59,7 +60,7 @@ end
 
 	</head>
 	
-<!--ADD BODY CLASS - 20230207-->
+<!-- ADD BODY CLASS - 20230207 -->
 
 <%
 	local class
@@ -71,7 +72,7 @@ end
 				tabs = group.tabs
 %>
 
-<!--ADD ID CAT PAGE NAME - 20230304-->
+<!--ADD ID CAT PAGE NAME - 20230304 -->
  <body id="<%= html.html_escape(cat.name) %>" class="<%= pageinfo.controller.." "..pageinfo.controller.."-"..pageinfo.action %>">
 	
 <% 
@@ -85,11 +86,11 @@ end
 
 <% if pageinfo.skinned ~= "false" then %>
 
-<!--ADD PAGE TITLE AND CATEGORY - 20230702-->
+<!-- ADD PAGE TITLE AND CATEGORY - 20230702 -->
 		<div id="page-<%= pageinfo.action %>" class="page page-<%= pageinfo.controller %>">
 			<div id="header">
 			
-<!--REMOVE TITLE AND MOVE HOSTNAME IN FOOTER - 20230210
+<!-- REMOVE TITLE AND MOVE HOSTNAME IN FOOTER - 20230210
 				<h1>Alpine Linux</h1>
 				<p class="hostname"><%= html.html_escape(hostname or "unknown hostname") %></p>
 -->
@@ -108,7 +109,7 @@ end
 				%>
 				<!--ADD HEADER LINK CLASS - 20230324-->
 					 
-					<a id="about-link" href="https://github.com/trinity-labs/trinity-skin" target="_blank">About</a>
+					<a id="about-link" href="https://gitlab.alpinelinux.org/trinity-labs/trinity-skin" target="_blank">About</a>
 					
 				</p>
 			</div>	<!-- header -->
@@ -170,11 +171,14 @@ end
 			</div> <!-- main -->
 
 			<div id="footer">
-				<p>Page generated in <%= html.html_escape(os.clock()) %> seconds on <%= html.html_escape(hostname) %></p>
+				<p>Page generated in <%= html.html_escape(os.clock()) %> seconds 
+<% if session.userinfo and session.userinfo.userid then%>
+				on <span id="hostname" class="footer-hostname"><%= html.html_escape(hostname) %></span></p>
+<% end --pageinfo.skinned%>
 			</div> <!-- footer -->
 
 		</div> <!-- page -->
-<% end --pageinfo.skinned %>
+<% end --session.userinfo.userid %>
 
 	</body>
 </html>

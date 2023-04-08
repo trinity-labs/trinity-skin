@@ -55,7 +55,7 @@ It's an Alpine native & build-in `script` to setup entire system, this include :
 - <ins>**Networking**</ins>
 - Hostname
 
-**!** <ins>**Important**</ins> **: We need networking for acces to ACF from local network**
+**!** <ins>**Important**</ins> **: We need networking for acces to ACF from LAN**
 <br>
 <br>
 <h2>🧪 Install</h2>
@@ -64,7 +64,7 @@ It's an Alpine native & build-in `script` to setup entire system, this include :
 
 - **HTML Files** are include in `Lua` language, and `Haserl` for `mini_httpd` (small & fast framework mostly design for embedded device)
 - **Framework Files** are include in skins folder. Skin files override core template (so be carreful of security permission and code remaining) 
-- **Views** are served by `mini_httpd` server (fast and secure way to split `local` network server and `nginx public` reverse proxy) so completly separate all this two configs
+- **Views** are served by `mini_httpd` server (fast and secure way to split LAN `local` network server and WAN `nginx public` reverse proxy) so completly separate all this two configs
 - **CSS Files** are store in easy way in `css` folder (includes located in root `trinity.css` file)
 
 All files and folders are store on local system in ` /usr/share/acf/www/skins/trinity `
@@ -220,11 +220,11 @@ skin=/skins/trinity
 **Optionnal if project continue to growth & help is according :**
 
 ```diff
-+ Get a VERY SECURE way to access from Internets (user - expert - admin modes) duo-linux Openssh 2FA awall fail2ban
++ Get a VERY SECURE way to access from Internets WAN (user - expert - admin modes) duo-linux Openssh 2FA awall fail2ban
 + acf-nginx && acf-apache simpe module to build
 + Virtualize KVM QEMU Libvirt in a web browser
 + Cast VLC on connected screens from file or URL (media center or CCTV)
-+ Get really nice NAS interface with all conf avaible and Rclone for cloud apps
++ Get really nice NAS interface with all conf avaible and Rclone for cloud apps in a SAN
 ```
 
 <br>

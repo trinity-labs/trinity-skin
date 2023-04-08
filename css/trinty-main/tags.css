@@ -9,14 +9,18 @@ body {
     max-width: 100%;
 }
  
+p {
+    line-height: 2rem !important;
+}
+ 
 .hide {
 	display:none;
 }
 
 a,
 a:visited {
-	text-decoration:none !important;
-	color: #3F83CE;
+    text-decoration: none !important;
+    color: #16597a;
 }
 
 a:hover {
@@ -190,4 +194,12 @@ input.submit:hover {
     padding: 4px 20px 4px 4px;
     white-space: normal;
     cursor: pointer;
+}
+
+#hostname {
+    text-transform: uppercase;
+    font-size: 75%;
+    color: #9b9b9b;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
 }

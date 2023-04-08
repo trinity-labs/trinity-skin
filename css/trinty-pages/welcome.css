@@ -12,6 +12,112 @@
     display: none !important;
 }
 
-.welcome.welcome-read #section-pocket-mainframe h1 {
-    margin-top: 1.75rem !important;
+.welcome-block.col-lg-12 {
+    padding: 2rem 3.5rem 0.5rem;
+    background: #f5f5f5;
+    border-radius: 4px;
+    color: grey !important;
+}
+
+.welcome-read #content h1 {
+    background-color: #16597a;
+    border-color: #16597a;
+    color: white !important;
+}
+
+.welcome-title-user {
+    color: #16597a;
+    font-weight: bold !important;
+    text-transform: capitalize;
+    font-size: 1.5rem !important;
+    margin: 0rem auto 1rem;
+}
+
+.welcome-title-user:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F406' !important;
+    margin: 0 0.75rem 0 0;
+    display: inline-block;
+    color: #acacac;
+    position: relative;
+    font-size: 1.5rem;
+    top: -0.2rem
+}
+
+.welcome-title-root:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F505' !important;
+    margin: 0 0.75rem 0 0;
+    display: inline-block;
+    color: #f14d4d;
+    position: relative;
+    font-size: 1.5rem;
+    top: -0.2rem;
+}
+
+.welcome-user,
+.welcome-root {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 80%;
+}
+
+.welcome-hostname {
+    font-size: inherit !important;
+    font-weight: bold !important;
+    color: inherit !important;
+    text-transform: lowercase !important;
+}
+
+.welcome-read hr {
+    border: none !important;
+    background: rgb(213 213 213 / 28%);
+}
+
+.link-block {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    align-content: stretch;
+}
+
+.welcome-about {
+    text-align: right;
+}
+
+.welcome-pkg-list,
+.welcome-about {
+    font-size: 0.75rem;
+}
+
+.welcome-pkg-list a,
+.welcome-about a {
+    font-weight: bold;
+    font-size: 0.55rem;
+    border-bottom: 0.1rem solid;
+}
+
+.welcome-pkg-list:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F466' !important;
+    margin: 0 0.15rem 0 0;
+    display: inline-block;
+    color: #acacac;
+    position: relative;
+    font-size: 0.75rem;
+}
+
+.welcome-about:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: '\F059' !important;
+    margin: 0 0.15rem 0 0;
+    display: inline-block;
+    color: #acacac;
+    position: relative;
+    font-size: 0.75rem;
 }
