@@ -175,6 +175,12 @@ skin=/skins/trinity
  ```css
 62:  descr = "1=Quiet, ... , " .. #getloglevels() .. "=Debug", -- Make Lua >=5.3 compat 20230406 - TRIИITY
  ```
+ 
+  - **4 - Use https://unpkg.com/ for main CDN : fontawesome, javascript and all npm apps without install npm on system, it's trusty, fast, opensource and forge with latest flag eg:
+  
+```css
+@import url('https://unpkg.com/@fortawesome/fontawesome-free@latest/css/all.min.css');
+ ```
 
 <br>
 <br>
