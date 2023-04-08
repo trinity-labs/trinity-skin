@@ -169,16 +169,17 @@ end
 				</div>	<!-- content -->
 
 			</div> <!-- main -->
-
+<!-- REMOVE HOSTNAME FOR GUSET - 202300408 -->
 			<div id="footer">
 				<p>Page generated in <%= html.html_escape(os.clock()) %> seconds 
-<% if session.userinfo and session.userinfo.userid then%>
-				on <span id="hostname" class="footer-hostname"><%= html.html_escape(hostname) %></span></p>
-<% end --pageinfo.skinned%>
+			<% if session.userinfo and session.userinfo.userid then%>
+				on <span id="hostname" class="footer-hostname"><%= html.html_escape(hostname) %></span>
+			<% end --session.userinfo.userid%>
+				</p>
 			</div> <!-- footer -->
 
 		</div> <!-- page -->
-<% end --session.userinfo.userid %>
+<% end --pageinfo.skinned%>
 
 	</body>
 </html>

@@ -45,13 +45,15 @@
     top: -0.2rem
 }
 
+/* ADD ROOT SPEC ICON & COLOR */
+
 .welcome-title-root:before {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: '\F505' !important;
     margin: 0 0.75rem 0 0;
     display: inline-block;
-    color: #f14d4d;
+    color: #ff7575;
     position: relative;
     font-size: 1.5rem;
     top: -0.2rem;
@@ -90,7 +92,8 @@
 
 .welcome-pkg-list,
 .welcome-about {
-    font-size: 0.75rem;
+    font-size: 0.60rem;
+    font-weight: 500;
 }
 
 .welcome-pkg-list a,

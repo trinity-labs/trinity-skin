@@ -13,8 +13,7 @@ end
 %>
 
 <div class="welcome-block col-lg-12">
- 
-
+<!--- ADD ROOT SPEC ICON & COLOR */ -->
 <% if session.userinfo.userid == "root" then %>
 	<h4 class="welcome-title-user welcome-title-root">Welcome <span class="welcome-root"><%= html.html_escape(session.userinfo.userid) %></span></h4>
 <% else %>
@@ -24,7 +23,7 @@ end
 			<p class=welcome-desc>
 				To native Alpine Linux Admin Panel on <span id="hostname" class="welcome-hostname"><%= html.html_escape(hostname) %></span> host.
 				<br>
-				Monitoring and configure all acf installed packages after install itself : 'apk add acf-ssh'
+				Monitoring and configure all acf installed packages after get them, eg : 'apk add acf-ssh'
 				<br>
 				As usual, Alpine ACF comes with only necessary pkg to run admin panel.
 				<br>
@@ -32,6 +31,7 @@ end
 				<br>
 			</p>
 		<hr>
+		</div>
 		<div class="link-block">
 			<p class="welcome-pkg-list">
 				Get acf packages list <a href="https://gitlab.alpinelinux.org/acf" target="_blank">HERE</a><br>
