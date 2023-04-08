@@ -138,10 +138,10 @@ skin=/skins/trinity
   <br>
  <h2>💊 Tips</h2>
 
-**- 1 -**  ~~Move **favicon.ico** to **/usr/share/acf/www root folder**~~ : **Unnecessary since we had inclued all folder structure off the native ACF app**
+  - **1 -**  ~~Move **favicon.ico** to **/usr/share/acf/www root folder**~~ : **Unnecessary since we had inclued all folder structure off the native ACF app**
 <br>
 
-**- 2 - Add `placeholder` to all input text and a special one for logon : add to ` /usr/share/lua/5.2 or /5.3 or /5.4/html ` line 113:**
+  - **2 - Add `placeholder` to all input text and a special one for logon : add to ` /usr/share/lua/5.2 or /5.3 or /5.4/html ` line 113:**
 
 ```css
 -- ADD placholder TO ALL INPUT WITHOUT SUBMIT -- 20230304 -- TRIИITY 
@@ -162,7 +162,7 @@ skin=/skins/trinity
   ```
  <br>
 
-**- 3 - Compatibility of Lua 5.3 and 5.4 for Alpine Linux ACF already in TRIИITY Skin and work with 5.2 :**
+  - **3 - Compatibility of Lua 5.3 and 5.4 for Alpine Linux ACF already in TRIИITY Skin and work with 5.2 :**
 
 `lib/session.lua` line 154 :
 
@@ -211,10 +211,22 @@ skin=/skins/trinity
 
 ```diff
 + Create TRIИITY Wiki to handle Alpine Linux system and common hardware (TRIИITY Pocket Mainframe - Work in progress)
-+ Try to get a Shell in an elegant way, in Lua & Haserl  (Work in progress - Help Appreciate)
-
++ Get Temp °C and F° selected option from CPU and mainboard
++ Try to get a Shell in an elegant way, in Lua & Haserl (Work in progress - Help Appreciate)
++ Try to include BootStrap in a smart way with Lua & Haserl (Work in progress)
 + Mobile Design (Done - Minor Bugs)
+
 ```
+**Optionnal if project continue to growth & help is according :**
+
+```diff
++ Get a VERY SECURE way to access from Internets (user - expert - admin modes) duo-linux Openssh 2FA awall fail2ban
++ acf-nginx && acf-apache simpe module to build
++ Virtualize KVM QEMU Libvirt in a web browser
++ Cast VLC on connected screens from file or URL (media center or CCTV)
++ Get really nice NAS interface with all conf avaible and Rclone for cloud apps
+```
+
 <br>
 
 
@@ -224,7 +236,7 @@ skin=/skins/trinity
 <br>
 **Alpine ACF** - https://wiki.alpinelinux.org/wiki/Alpine_Configuration_Framework_Design
 <br>
-**Fontawesome** - https://fontawesome.com/ - Free features - Web access needed
+**Fontawesome** - https://fontawesome.com/ - *Free features - Web access needed or import*
 <br>
 **Natanael Copa** - https://github.com/ncopa
 <br>
